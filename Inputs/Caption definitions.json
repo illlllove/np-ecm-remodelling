@@ -1,0 +1,428 @@
+{
+  "S1": {
+    "title": "Independent primary-tissue clustering in GSE222182",
+    "caption": "UMAP of 18,876 cells retained after sample-level quality control and Scrublet filtering in seven primary intervertebral-disc tissue libraries: four asymptomatic and three back-pain samples. Each point is one cell. The same coordinates are coloured by <b>(A)</b> sample, <b>(B)</b> symptom context, <b>(C)</b> independently derived Leiden cluster (resolution 0.8), <b>(D)</b> remodelling score, <b>(E)</b> broad NP/mesenchymal annotation and <b>(F)</b> marker-supported remodelling-state annotation. The score is the mean gene-standardized log-normalized expression of the 15 remodelling genes minus the corresponding mean for the 10 reference genes, standardized within this primary-tissue dataset. Cluster 3 contained 1,308 state cells from six libraries. Symptom labels were not used to select the state. The source tissue was not documented as isolated NP, and symptom context is not a degeneration-grade comparison.",
+    "evidence": {
+      "retained_cells": 18876,
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:UMAPS/umaps",
+        "D:/投稿/sci-cep-np/cep-np/scripts/42_gse222182_state_identity_validation.py",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/primary_cluster_positive_evidence_audit.tsv",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/GSE222182_validation_checkpoint.md",
+        "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/S01_frozen_umap_display.tsv.gz"
+      ],
+      "verified": "Panels, cell and library counts, cluster 3 identity, within-primary scoring and non-isolated-disc tissue/symptom-context boundary verified from plotting code and retained source results.",
+      "libraries": 7,
+      "asymptomatic_libraries": 4,
+      "back_pain_libraries": 3,
+      "state_cluster": "3",
+      "state_cells": 1308,
+      "state_libraries": 6,
+      "panels": "sample_id; condition; leiden_0.8; transition_score; broad_NP_mesenchymal; eligible_remodeling_state",
+      "score_definition": "log1p total-count-normalized expression (target sum 10000), gene-wise sample SD standardization across primary cells, equal-weight 15-minus-10 module means"
+    },
+    "sources": [
+      "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py",
+      "D:/投稿/sci-cep-np/cep-np/scripts/42_gse222182_state_identity_validation.py",
+      "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/display_input_provenance.json",
+      "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/S01_frozen_umap_display.tsv.gz",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/primary_cluster_positive_evidence_audit.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/primary_sample_state_abundance.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/GSE222182_validation_checkpoint.md"
+    ],
+    "renderedCaption": "UMAP of 18,876 cells retained after sample-level quality control and Scrublet filtering in seven primary intervertebral-disc tissue libraries: four asymptomatic and three back-pain samples. Each point is one cell. The same coordinates are coloured by <b>(A)</b> sample, <b>(B)</b> symptom context, <b>(C)</b> independently derived Leiden cluster (resolution 0.8), <b>(D)</b> remodelling score, <b>(E)</b> broad NP/mesenchymal annotation and <b>(F)</b> marker-supported remodelling-state annotation. The score is the mean gene-standardized log-normalized expression of the 15 remodelling genes minus the corresponding mean for the 10 reference genes, standardized within this primary-tissue dataset. Cluster 3 contained 1,308 state cells from six libraries. Symptom labels were not used to select the state. The source tissue was not documented as isolated NP, and symptom context is not a degeneration-grade comparison."
+  },
+  "S2": {
+    "title": "Cultured-cell clustering in GSE222182",
+    "caption": "UMAP of 6,375 cells from two cultured-cell libraries processed separately from the primary-tissue arm of GSE222182. The non-stressed library contributed 2,949 cells and the stressed library 3,426 cells after quality control and Scrublet filtering. Each point is one cell. Coordinates are coloured by <b>(A)</b> library, <b>(B)</b> culture condition, <b>(C)</b> independent Leiden cluster (resolution 0.8), <b>(D)</b> the 15-remodelling-minus-10-reference expression score, <b>(E)</b> broad NP/mesenchymal annotation and <b>(F)</b> the remodelling-state call. Gene expression was log-normalized and standardized within the cultured-cell dataset before scoring; scores are not directly comparable in magnitude with the primary-tissue arm. No cultured cluster met the combined expression and positive-marker criteria for the remodelling state. With one library per condition and undocumented pairing, these panels are descriptive and do not establish a stress effect.",
+    "evidence": {
+      "retained_cells": 6375,
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:UMAPS/umaps",
+        "D:/投稿/sci-cep-np/cep-np/scripts/42_gse222182_state_identity_validation.py",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/culture_descriptive_summary.tsv",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/culture_cluster_positive_evidence_audit.tsv",
+        "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/S02_frozen_umap_display.tsv.gz"
+      ],
+      "verified": "Panels and retained cell counts verified; no cultured cluster qualifies, and one library per condition with undocumented pairing is descriptive only.",
+      "libraries": 2,
+      "no_stress_cells": 2949,
+      "stress_cells": 3426,
+      "eligible_state_clusters": [],
+      "panels": "sample_id; condition; leiden_0.8; transition_score; broad_NP_mesenchymal; eligible_remodeling_state"
+    },
+    "sources": [
+      "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py",
+      "D:/投稿/sci-cep-np/cep-np/scripts/42_gse222182_state_identity_validation.py",
+      "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/S02_frozen_umap_display.tsv.gz",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/culture_descriptive_summary.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/culture_cluster_positive_evidence_audit.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE222182/GSE222182_validation_checkpoint.md"
+    ],
+    "renderedCaption": "UMAP of 6,375 cells from two cultured-cell libraries processed separately from the primary-tissue arm of GSE222182. The non-stressed library contributed 2,949 cells and the stressed library 3,426 cells after quality control and Scrublet filtering. Each point is one cell. Coordinates are coloured by <b>(A)</b> library, <b>(B)</b> culture condition, <b>(C)</b> independent Leiden cluster (resolution 0.8), <b>(D)</b> the 15-remodelling-minus-10-reference expression score, <b>(E)</b> broad NP/mesenchymal annotation and <b>(F)</b> the remodelling-state call. Gene expression was log-normalized and standardized within the cultured-cell dataset before scoring; scores are not directly comparable in magnitude with the primary-tissue arm. No cultured cluster met the combined expression and positive-marker criteria for the remodelling state. With one library per condition and undocumented pairing, these panels are descriptive and do not establish a stress effect."
+  },
+  "S3": {
+    "title": "Independent clustering and state annotation in GSE244889",
+    "caption": "UMAP of 52,560 cells retained after donor-level quality control and Scrublet filtering in seven NP samples, comprising four mild-degeneration and three severe-degeneration donors. Each point is one cell. The same coordinates are coloured by <b>(A)</b> donor, <b>(B)</b> clinical group, <b>(C)</b> independently derived Leiden cluster (resolution 0.8), <b>(D)</b> the 15-remodelling-minus-10-reference score, <b>(E)</b> broad NP/mesenchymal annotation and <b>(F)</b> the original remodelling-state assignment. The score uses gene-standardized log-normalized expression within this dataset. Panel F includes clusters 1, 7, 9 and 10; the stricter exclusion of contractile/perivascular-like cluster 10 is evaluated separately in the disease-effect analyses. Clinical group was not used to select the state, and no discovery-cohort labels were transferred. UMAP displays do not themselves quantify donor-level enrichment or within-state expression differences.",
+    "evidence": {
+      "retained_cells": 52560,
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:UMAPS/umaps",
+        "D:/投稿/sci-cep-np/cep-np/scripts/40_gse244889_frozen_external_validation.py",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE244889/cluster_positive_evidence_audit.tsv",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE244889/donor_state_abundance.tsv",
+        "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/S03_frozen_umap_display.tsv.gz"
+      ],
+      "verified": "52,560 cells, seven donors (four mild/three severe), six panels and original clusters 1/7/9/10 verified. Original assignment is distinguished from the separate stricter cluster-10 exclusion.",
+      "donors": 7,
+      "mild_donors": 4,
+      "severe_donors": 3,
+      "original_eligible_clusters": [
+        "1",
+        "7",
+        "9",
+        "10"
+      ],
+      "panels": "donor_id; condition; leiden_0.8; transition_score; broad_NP_mesenchymal; eligible_remodeling_state",
+      "note": "State-cell count omitted deliberately: the display preserves the original annotation while a stricter cluster-10 sensitivity is reported elsewhere. No scientific values were recalculated."
+    },
+    "sources": [
+      "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py",
+      "D:/投稿/sci-cep-np/cep-np/scripts/40_gse244889_frozen_external_validation.py",
+      "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/S03_frozen_umap_display.tsv.gz",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE244889/cluster_positive_evidence_audit.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE244889/donor_state_abundance.tsv"
+    ],
+    "renderedCaption": "UMAP of 52,560 cells retained after donor-level quality control and Scrublet filtering in seven NP samples, comprising four mild-degeneration and three severe-degeneration donors. Each point is one cell. The same coordinates are coloured by <b>(A)</b> donor, <b>(B)</b> clinical group, <b>(C)</b> independently derived Leiden cluster (resolution 0.8), <b>(D)</b> the 15-remodelling-minus-10-reference score, <b>(E)</b> broad NP/mesenchymal annotation and <b>(F)</b> the original remodelling-state assignment. The score uses gene-standardized log-normalized expression within this dataset. Panel F includes clusters 1, 7, 9 and 10; the stricter exclusion of contractile/perivascular-like cluster 10 is evaluated separately in the disease-effect analyses. Clinical group was not used to select the state, and no discovery-cohort labels were transferred. UMAP displays do not themselves quantify donor-level enrichment or within-state expression differences."
+  },
+  "S4": {
+    "title": "GSE160756 anatomical tissue representation",
+    "caption": "Unintegrated UMAP of 89,047 retained cells from seven anatomical libraries: three NP, two annulus-fibrosus (AF) and two cartilage-endplate (CEP) libraries. Each point is one cell. Coordinates are coloured by <b>(A)</b> library, <b>(B)</b> tissue, <b>(C)</b> independent Leiden cluster (resolution 0.8), <b>(D)</b> the 15-remodelling-minus-10-reference score and <b>(E)</b> the marker-supported remodelling-state call. The score uses gene-standardized log-normalized expression across this dataset. The primary graph was not corrected for library because tissue and library were confounded; Harmony was assessed separately as a sensitivity analysis. These libraries provide anatomical context, not a disease comparison. Their complete linkage to the source discs/donors is unavailable, so seven libraries must not be interpreted as seven independent patients or paired tissue compartments.",
+    "evidence": {
+      "retained_cells": 89047,
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:UMAPS/umaps",
+        "D:/投稿/sci-cep-np/cep-np/scripts/43_gse160756_tissue_background.py",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/GSE160756_tissue_background_checkpoint.md",
+        "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/S04_frozen_umap_display.tsv.gz"
+      ],
+      "verified": "Five UMAP panels, 89,047 cells and seven libraries verified. Primary graph is unintegrated; donor linkage is incomplete and no disease inference is supplied.",
+      "libraries": 7,
+      "NP_libraries": 3,
+      "AF_libraries": 2,
+      "CEP_libraries": 2,
+      "panels": "sample_id; tissue; leiden_unintegrated; transition_score; remodeling_state_unintegrated",
+      "primary_graph": "Unintegrated X_pca, Leiden resolution 0.8"
+    },
+    "sources": [
+      "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py",
+      "D:/投稿/sci-cep-np/cep-np/scripts/43_gse160756_tissue_background.py",
+      "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/S04_frozen_umap_display.tsv.gz",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/GSE160756_tissue_background_checkpoint.md",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/unintegrated_sample_tissue_abundance.tsv"
+    ],
+    "renderedCaption": "Unintegrated UMAP of 89,047 retained cells from seven anatomical libraries: three NP, two annulus-fibrosus (AF) and two cartilage-endplate (CEP) libraries. Each point is one cell. Coordinates are coloured by <b>(A)</b> library, <b>(B)</b> tissue, <b>(C)</b> independent Leiden cluster (resolution 0.8), <b>(D)</b> the 15-remodelling-minus-10-reference score and <b>(E)</b> the marker-supported remodelling-state call. The score uses gene-standardized log-normalized expression across this dataset. The primary graph was not corrected for library because tissue and library were confounded; Harmony was assessed separately as a sensitivity analysis. These libraries provide anatomical context, not a disease comparison. Their complete linkage to the source discs/donors is unavailable, so seven libraries must not be interpreted as seven independent patients or paired tissue compartments."
+  },
+  "S5": {
+    "title": "GSE160756 state fractions by tissue",
+    "caption": "Remodelling-state fractions in three NP, two AF and two CEP libraries from GSE160756, using the unintegrated annotation. Each coloured point is one anatomical library. The numerator is the number of remodelling-state cells and the denominator is the number of broad NP/mesenchymal cells in that library, not all captured cells. Boxes show medians and interquartile ranges; whiskers extend to the most extreme observations within 1.5 interquartile ranges. All individual library values are overlaid. The tissue medians were 75.4% for NP, 26.9% for AF and 1.3% for CEP. Fractions are conditional on recovered eligible cells and do not measure absolute cell density or demonstrate NP specificity. Incomplete disc/donor linkage limits these comparisons to descriptive anatomical evidence.",
+    "evidence": {
+      "numerator": "remodeling_cells",
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:tissue_and_bulk",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/unintegrated_sample_tissue_abundance.tsv",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/unintegrated_tissue_summary.tsv"
+      ],
+      "verified": "Numerator, broad-compartment denominator, library counts, median fractions and boxplot display verified from source table and plotting code; no new statistical test.",
+      "denominator": "broad_cells",
+      "NP_median": 0.7536107943747624,
+      "AF_median": 0.2686862949825319,
+      "CEP_median": 0.01333662622402635,
+      "boxplot": "seaborn.boxplot default quartiles and 1.5-IQR whiskers; fliersize=0; all library points separately overlaid"
+    },
+    "sources": [
+      "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/unintegrated_sample_tissue_abundance.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/unintegrated_tissue_summary.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/GSE160756_tissue_background_checkpoint.md"
+    ],
+    "renderedCaption": "Remodelling-state fractions in three NP, two AF and two CEP libraries from GSE160756, using the unintegrated annotation. Each coloured point is one anatomical library. The numerator is the number of remodelling-state cells and the denominator is the number of broad NP/mesenchymal cells in that library, not all captured cells. Boxes show medians and interquartile ranges; whiskers extend to the most extreme observations within 1.5 interquartile ranges. All individual library values are overlaid. The tissue medians were 75.4% for NP, 26.9% for AF and 1.3% for CEP. Fractions are conditional on recovered eligible cells and do not measure absolute cell density or demonstrate NP specificity. Incomplete disc/donor linkage limits these comparisons to descriptive anatomical evidence."
+  },
+  "S6": {
+    "title": "GSE160756 frozen-signature pseudobulk expression",
+    "caption": "Expression of the unchanged 25-gene signature in broad NP/mesenchymal pseudobulks from seven GSE160756 anatomical libraries. Raw counts were summed across eligible broad-compartment cells within each library and converted to log2 counts per million. Each gene was then standardized across the seven libraries; red denotes relatively higher and blue relatively lower expression, with the colour scale limited to -2 to +2. Rows contain the 15 remodelling genes followed by the 10 reference genes; all 25 were measurable. Columns are anatomical libraries rather than proven independent donors. This heatmap describes the broad-compartment expression background and is not restricted to remodelling-state cells or evidence of a disease-related change.",
+    "evidence": {
+      "pseudobulk_cells": "broad_NP_mesenchymal_unintegrated cells per sample_id/tissue",
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:tissue_and_bulk",
+        "D:/投稿/sci-cep-np/cep-np/scripts/43_gse160756_tissue_background.py:sample_summaries",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/unintegrated_broad_pseudobulk_log2cpm.tsv",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/signature_coverage.tsv"
+      ],
+      "verified": "Broad-compartment count aggregation, log2CPM, per-gene standardization, all 25 gene features and display colour limits verified.",
+      "transformation": "log2((summed counts + 0.5)/(library size + 1) * 1000000)",
+      "display_standardization": "gene-wise sample-SD z score across seven libraries",
+      "genes": 25,
+      "colour_min": -2,
+      "colour_max": 2,
+      "columns": [
+        "NP 1",
+        "NP 2",
+        "NP 3",
+        "AF 1",
+        "AF 2",
+        "CEP 1",
+        "CEP 2"
+      ]
+    },
+    "sources": [
+      "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py",
+      "D:/投稿/sci-cep-np/cep-np/scripts/43_gse160756_tissue_background.py",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/unintegrated_broad_pseudobulk_log2cpm.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/frozen_signature_used.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE160756/signature_coverage.tsv"
+    ],
+    "renderedCaption": "Expression of the unchanged 25-gene signature in broad NP/mesenchymal pseudobulks from seven GSE160756 anatomical libraries. Raw counts were summed across eligible broad-compartment cells within each library and converted to log2 counts per million. Each gene was then standardized across the seven libraries; red denotes relatively higher and blue relatively lower expression, with the colour scale limited to -2 to +2. Rows contain the 15 remodelling genes followed by the 10 reference genes; all 25 were measurable. Columns are anatomical libraries rather than proven independent donors. This heatmap describes the broad-compartment expression background and is not restricted to remodelling-state cells or evidence of a disease-related change."
+  },
+  "S7": {
+    "title": "Independent state presence in GSE233666",
+    "caption": "UMAP of 19,081 cells retained after sample-level quality control and Scrublet filtering in four herniated-NP samples. Each point is one cell. Coordinates are coloured by <b>(A)</b> patient, <b>(B)</b> age, <b>(C)</b> independent Leiden cluster (resolution 0.8), <b>(D)</b> remodelling score and <b>(E)</b> the marker-supported remodelling state. The score averages gene-standardized log-normalized expression with the original directions and equal weights over available features: 15 remodelling genes and nine reference genes; <i>C2orf40</i> was absent from the supplied feature table. Clusters 5 and 11 contained 2,074 state cells, represented in all four patients. This cohort tests phenotype presence in herniated NP. It has no healthy-control group or usable degeneration-grade contrast and was not used to estimate a disease effect.",
+    "evidence": {
+      "retained_cells": 19081,
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:UMAPS/umaps",
+        "D:/投稿/sci-cep-np/cep-np/scripts/44_gse233666_state_existence.py",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE233666/cluster_positive_evidence_audit.tsv",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE233666/sample_state_presence.tsv",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE233666/signature_coverage.tsv",
+        "D:/投稿/sci-cep-np/cep-np/01_metadata_audit/GSE233666_sample_audit.tsv"
+      ],
+      "verified": "19,081 retained cells, four herniated-NP patients, clusters 5/11 and 2,074 state cells verified. Supplied feature absence of C2orf40 means displayed score uses 15 plus 9 available features; no healthy/grade contrast is available.",
+      "patients": 4,
+      "state_clusters": [
+        "5",
+        "11"
+      ],
+      "state_cells": 2074,
+      "state_patients": 4,
+      "available_remodelling_genes": 15,
+      "available_reference_genes": 9,
+      "missing_feature": "C2orf40",
+      "panels": "sample_id; age; leiden_0.8; transition_score; remodeling_state_main"
+    },
+    "sources": [
+      "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py",
+      "D:/投稿/sci-cep-np/cep-np/scripts/44_gse233666_state_existence.py",
+      "D:/投稿/sci-cep-np/cep-np/10_figures_manuscript/supplementary_polish_inputs/S07_frozen_umap_display.tsv.gz",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE233666/cluster_positive_evidence_audit.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE233666/sample_state_presence.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE233666/signature_coverage.tsv",
+      "D:/投稿/sci-cep-np/cep-np/01_metadata_audit/GSE233666_sample_audit.tsv"
+    ],
+    "renderedCaption": "UMAP of 19,081 cells retained after sample-level quality control and Scrublet filtering in four herniated-NP samples. Each point is one cell. Coordinates are coloured by <b>(A)</b> patient, <b>(B)</b> age, <b>(C)</b> independent Leiden cluster (resolution 0.8), <b>(D)</b> remodelling score and <b>(E)</b> the marker-supported remodelling state. The score averages gene-standardized log-normalized expression with the original directions and equal weights over available features: 15 remodelling genes and nine reference genes; <i>C2orf40</i> was absent from the supplied feature table. Clusters 5 and 11 contained 2,074 state cells, represented in all four patients. This cohort tests phenotype presence in herniated NP. It has no healthy-control group or usable degeneration-grade contrast and was not used to estimate a disease effect."
+  },
+  "S8": {
+    "title": "Frozen-score sensitivity in GSE186542",
+    "caption": "The unchanged 25-gene remodelling score in six bulk NP samples from GSE186542: three early-stage samples described as Pfirrmann I-III and three advanced-stage samples described as Pfirrmann IV-V. Each point is one sample. Boxes show the median and interquartile range, with whiskers extending to observations within 1.5 interquartile ranges; all samples are overlaid. Counts were converted to log2 counts per million and standardized gene-wise across samples before subtracting the mean of 10 reference genes from the mean of 15 remodelling genes. All 25 genes were measurable. The advanced-minus-early mean score difference was 0.0334 (Hedges g=0.0431; exact two-sided permutation P=1.00 across 20 group-label allocations). Source labels containing 'control' denote early degeneration, not confirmed healthy NP; individual grades and clinical covariates were unavailable.",
+    "evidence": {
+      "early_n": 3,
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:tissue_and_bulk",
+        "D:/投稿/sci-cep-np/cep-np/scripts/45_gse186542_bulk_sensitivity.py",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE186542/sample_scores.tsv",
+        "D:/投稿/sci-cep-np/cep-np/07_validation/GSE186542/formal_effects.tsv",
+        "D:/投稿/sci-cep-np/cep-np/01_metadata_audit/GSE186542_sample_audit.tsv"
+      ],
+      "verified": "Three early/three advanced samples, grade ranges, all 25 measurable features, score transformation, boxplot display and existing exact P/effect values verified without rerunning tests.",
+      "advanced_n": 3,
+      "early_grade_range": "Pfirrmann I-III",
+      "advanced_grade_range": "Pfirrmann IV-V",
+      "advanced_minus_early": 0.033425819281396985,
+      "hedges_g": 0.04311729749442683,
+      "exact_p": 1.0,
+      "permutations": 20,
+      "boxplot": "seaborn.boxplot default quartiles and 1.5-IQR whiskers; fliersize=0; all samples separately overlaid"
+    },
+    "sources": [
+      "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py",
+      "D:/投稿/sci-cep-np/cep-np/scripts/45_gse186542_bulk_sensitivity.py",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE186542/sample_scores.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE186542/formal_effects.tsv",
+      "D:/投稿/sci-cep-np/cep-np/07_validation/GSE186542/signature_coverage.tsv",
+      "D:/投稿/sci-cep-np/cep-np/01_metadata_audit/GSE186542_sample_audit.tsv"
+    ],
+    "renderedCaption": "The unchanged 25-gene remodelling score in six bulk NP samples from GSE186542: three early-stage samples described as Pfirrmann I-III and three advanced-stage samples described as Pfirrmann IV-V. Each point is one sample. Boxes show the median and interquartile range, with whiskers extending to observations within 1.5 interquartile ranges; all samples are overlaid. Counts were converted to log2 counts per million and standardized gene-wise across samples before subtracting the mean of 10 reference genes from the mean of 15 remodelling genes. All 25 genes were measurable. The advanced-minus-early mean score difference was 0.0334 (Hedges g=0.0431; exact two-sided permutation P=1.00 across 20 group-label allocations). Source labels containing 'control' denote early degeneration, not confirmed healthy NP; individual grades and clinical covariates were unavailable."
+  },
+  "S9": {
+    "title": "Positive-marker alignment across NP-related states",
+    "caption": "Expression similarity between 36 independently annotated NP-related or mesenchymal clusters and seven discovery-derived state-marker panels in GSE251686, GSE229711, GSE230808 and GSE153066. Rows preserve the original cohort, cluster ID and positive-marker annotation; columns are the seven discovery-state panels. Panels were derived from the discovery clusters' top 20 positive markers after excluding the original stress/ECM-axis genes, common broadly expressed genes and ribosomal/mitochondrial genes. Cluster-mean expression was standardized gene-wise across eligible clusters within each cohort, and the available standardized marker values were averaged for each panel. Red therefore indicates greater within-cohort relative expression, not an absolute cross-cohort expression difference. These marker-panel scores are distinct from the 25-gene remodelling score. The heatmap provides descriptive expression context and does not establish lineage, a shared discrete subtype or disease effects; it does not replace independent cluster annotation with transferred cell labels.",
+    "evidence": {
+      "rows": 36,
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:deep_dive",
+        "D:/投稿/sci-cep-np/cep-np/scripts/21_conserved_state_alignment.py",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/state_deep_dive/outcome_blind_cluster_state_alignment.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/state_deep_dive/outcome_blind_discovery_state_signatures.tsv"
+      ],
+      "verified": "36 rows/seven panels and their marker derivation and gene-wise standardization verified. This is the initial state-deep-dive marker-panel comparison, not the final 25-gene disease-score analysis; no final-cell-set count is asserted.",
+      "score_columns": 7,
+      "clusters_per_cohort": {
+        "GSE251686": 7,
+        "GSE229711": 8,
+        "GSE230808": 14,
+        "GSE153066": 7
+      },
+      "marker_panel_sizes_before_cohort_specific_coverage": {
+        "matrix-homeostatic NP-like": 11,
+        "stress-responsive NP-like": 12,
+        "MGP/MSMP-high NP-like": 18,
+        "immediate-early-response NP-like": 16,
+        "CHI3L1/CHI3L2 inflammatory NP-like": 17,
+        "ECM-remodeling NP-like": 15,
+        "PRG4/CILP matrix NP-like": 11
+      },
+      "standardization": "Cluster-mean expression per gene, within-cohort population-SD z scores (ddof=0), then mean over available panel genes",
+      "stage": "Original state-deep-dive alignment table; not a new final-cell-set disease analysis or 25-gene-score display"
+    },
+    "sources": [
+      "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py",
+      "D:/投稿/sci-cep-np/cep-np/scripts/21_conserved_state_alignment.py",
+      "D:/投稿/sci-cep-np/cep-np/08_robustness/state_deep_dive/outcome_blind_cluster_state_alignment.tsv",
+      "D:/投稿/sci-cep-np/cep-np/08_robustness/state_deep_dive/outcome_blind_discovery_state_signatures.tsv",
+      "D:/投稿/sci-cep-np/cep-np/04_integration_annotation/GSE251686/annotation_evidence.tsv"
+    ],
+    "renderedCaption": "Expression similarity between 36 independently annotated NP-related or mesenchymal clusters and seven discovery-derived state-marker panels in GSE251686, GSE229711, GSE230808 and GSE153066. Rows preserve the original cohort, cluster ID and positive-marker annotation; columns are the seven discovery-state panels. Panels were derived from the discovery clusters' top 20 positive markers after excluding the original stress/ECM-axis genes, common broadly expressed genes and ribosomal/mitochondrial genes. Cluster-mean expression was standardized gene-wise across eligible clusters within each cohort, and the available standardized marker values were averaged for each panel. Red therefore indicates greater within-cohort relative expression, not an absolute cross-cohort expression difference. These marker-panel scores are distinct from the 25-gene remodelling score. The heatmap provides descriptive expression context and does not establish lineage, a shared discrete subtype or disease effects; it does not replace independent cluster annotation with transferred cell labels."
+  },
+  "S10": {
+    "title": "Independent diffusion pseudotime comparisons",
+    "caption": "<b>Supplementary Figure S10. Independent diffusion pseudotime comparisons.</b> Each point represents one independently defined NP-related cluster in (A) GSE251686, (B) GSE229711, (C) GSE230808 or (D) GSE153066. The analyses included 30,401, 12,182, 22,339 and 37,047 cells across 7, 8, 14 and 7 clusters, respectively. The horizontal axis is the median cell-level diffusion pseudotime within each cluster. The vertical axis is the cohort-standardized discovery-derived ECM-remodelling state-marker score, not the later 25-gene transition score. Red points identify eligible remodelling clusters; blue points identify other NP-related clusters. Numbers denote the original cluster IDs. Point size increases with cluster cell count and is scaled separately within each panel; it is not an estimate of donor-level abundance. Diffusion pseudotime was computed independently in each cohort, using a matrix-homeostatic root when available and without using disease labels to order cells. Root clusters were 0, 0, 4 and 1, respectively. The different ordering patterns do not establish a shared disease-progression trajectory or cell lineage. No confidence intervals or cell-level disease tests are displayed.",
+    "evidence": {
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:deep_dive",
+        "D:/投稿/sci-cep-np/cep-np/scripts/23_independent_remodeling_trajectories.py",
+        "D:/投稿/sci-cep-np/cep-np/scripts/21_conserved_state_alignment.py",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/state_deep_dive/independent_diffusion_pseudotime_summary.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/state_deep_dive/independent_diffusion_pseudotime_clusters.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/state_deep_dive/outcome_blind_discovery_state_signatures.tsv"
+      ],
+      "verified": "Plot y is target_signature_score from positive-marker alignment, not frozen_25_gene_transition_z. Plot sizes are 40 plus within-panel min-max cell-count scaling times 240. Pseudotime uses X_pca_harmony, 30 neighbours, diffusion map and DPT; cross-sectional ordering is descriptive."
+    },
+    "renderedCaption": "Each point represents one independently defined NP-related cluster in (A) GSE251686, (B) GSE229711, (C) GSE230808 or (D) GSE153066. The analyses included 30,401, 12,182, 22,339 and 37,047 cells across 7, 8, 14 and 7 clusters, respectively. The horizontal axis is the median cell-level diffusion pseudotime within each cluster. The vertical axis is the cohort-standardized discovery-derived ECM-remodelling state-marker score, not the later 25-gene transition score. Red points identify eligible remodelling clusters; blue points identify other NP-related clusters. Numbers denote the original cluster IDs. Point size increases with cluster cell count and is scaled separately within each panel; it is not an estimate of donor-level abundance. Diffusion pseudotime was computed independently in each cohort, using a matrix-homeostatic root when available and without using disease labels to order cells. Root clusters were 0, 0, 4 and 1, respectively. The different ordering patterns do not establish a shared disease-progression trajectory or cell lineage. No confidence intervals or cell-level disease tests are displayed."
+  },
+  "S11": {
+    "title": "Exploratory candidate regulator expression contrasts",
+    "caption": "<b>Supplementary Figure S11. Exploratory candidate regulator expression contrasts.</b> The heatmap shows the first 12 genes in the previously generated candidate-priority table. For each gene, mean log-normalized expression in eligible remodelling-state cells minus that in other NP-related cells was first calculated within each eligible donor and then averaged across donors. Eligibility required at least 20 cells in each population. Columns comprise GSE251686 (6 paired donors), GSE230808 (8) and GSE153066 (15). Red indicates higher and blue lower expression in the remodelling state; numbers are mean paired expression differences, not fold changes or inferred transcription-factor activities. Candidates were ordered using cross-cohort direction concordance, the number of positive contrasts and the discovery contrast. This is an exploratory expression-based prioritization; it does not establish regulon activity, upstream control or causality. <i>AEBP1</i> expression in this historical comparison is distinct from the later self-excluded 24-gene analysis.",
+    "evidence": {
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:deep_dive",
+        "D:/投稿/sci-cep-np/cep-np/scripts/24_exploratory_regulator_prioritization.py",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/state_deep_dive/exploratory_regulator_priority.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/state_deep_dive/regulator_cross_cohort_expression_summary.tsv"
+      ],
+      "verified": "All 12 displayed genes have paired_donors=6,8,15 in the three displayed cohorts. Original object X values are described as log-normalized expression; do not label these values as log2 fold changes."
+    },
+    "renderedCaption": "The heatmap shows the first 12 genes in the previously generated candidate-priority table. For each gene, mean log-normalized expression in eligible remodelling-state cells minus that in other NP-related cells was first calculated within each eligible donor and then averaged across donors. Eligibility required at least 20 cells in each population. Columns comprise GSE251686 (6 paired donors), GSE230808 (8) and GSE153066 (15). Red indicates higher and blue lower expression in the remodelling state; numbers are mean paired expression differences, not fold changes or inferred transcription-factor activities. Candidates were ordered using cross-cohort direction concordance, the number of positive contrasts and the discovery contrast. This is an exploratory expression-based prioritization; it does not establish regulon activity, upstream control or causality. <i>AEBP1</i> expression in this historical comparison is distinct from the later self-excluded 24-gene analysis."
+  },
+  "S12": {
+    "title": "Historical stratified summaries of the 25 gene score",
+    "caption": "<b>Supplementary Figure S12. Historical stratified summaries of the 25-gene score.</b> Donor-level standardized disease-minus-reference effects are shown separately for strict NP states, the broad NP/mesenchymal compartment and bulk NP average expression. Blue circles denote Hedges' g estimates with normal-approximation 95% confidence intervals. Red diamonds denote random-effects summaries, with between-comparison variance estimated by restricted maximum likelihood (REML) and 95% confidence intervals calculated using Hartung-Knapp (HK) uncertainty. The dashed line marks zero. The strict and broad single-cell strata each contain GSE251686 (3 reference and 3 disease donors), GSE153066 (8 and 8), and the historical GSE229711-versus-GSE230808 contrast (3 and 8). The asterisk identifies that cross-study contrast, in which condition and study are confounded; it is retained as a direction-only historical comparison, not an independent within-study disease effect. The bulk stratum contains GSE70362 (7 low-grade and 8 high-grade donors) and GSE56081 (5 grade-I and 5 grade-IV samples). I-squared and tau-squared describe heterogeneity within each stratum. This stage-specific summary predates the later external cohorts and the four-cohort bulk comparison in Figure 6. No pooled estimate combines the three biological strata.",
+    "evidence": {
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:meta_forest",
+        "D:/投稿/sci-cep-np/cep-np/scripts/28_frozen_signature_pseudobulk_meta.py:reml_meta",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/frozen_signature_meta/stratified_cohort_effects.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/frozen_signature_meta/stratified_random_effects_meta.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/frozen_signature_meta/meta_analysis_checkpoint.md"
+      ],
+      "verified": "Original figure has three single-cell comparisons per stratum and two bulk cohorts only. Per-comparison CI uses g +/-1.96*SE; pooled CI uses t(0.975,k-1)*HK SE. It must not be described as the final four-bulk or GSE244889-inclusive meta-analysis."
+    },
+    "renderedCaption": "Donor-level standardized disease-minus-reference effects are shown separately for strict NP states, the broad NP/mesenchymal compartment and bulk NP average expression. Blue circles denote Hedges' g estimates with normal-approximation 95% confidence intervals. Red diamonds denote random-effects summaries, with between-comparison variance estimated by restricted maximum likelihood (REML) and 95% confidence intervals calculated using Hartung-Knapp (HK) uncertainty. The dashed line marks zero. The strict and broad single-cell strata each contain GSE251686 (3 reference and 3 disease donors), GSE153066 (8 and 8), and the historical GSE229711-versus-GSE230808 contrast (3 and 8). The asterisk identifies that cross-study contrast, in which condition and study are confounded; it is retained as a direction-only historical comparison, not an independent within-study disease effect. The bulk stratum contains GSE70362 (7 low-grade and 8 high-grade donors) and GSE56081 (5 grade-I and 5 grade-IV samples). I-squared and tau-squared describe heterogeneity within each stratum. This stage-specific summary predates the later external cohorts and the four-cohort bulk comparison in Figure 6. No pooled estimate combines the three biological strata."
+  },
+  "S13": {
+    "title": "Raw count co detection effects across cohorts",
+    "caption": "<b>Supplementary Figure S13. Raw-count co-detection effects across cohorts.</b> From left to right, the panels show <i>AEBP1</i>-<i>COL5A2</i> double positivity, double positivity plus <i>KRT19</i>, and double positivity plus <i>CA12</i>. Each required gene must have at least one UMI in the same original cell barcode. Within each donor/sample or anatomical-library stratum, the positive-cell fraction in other NP-related cells was subtracted from that in remodelling-state cells. Points show the mean paired risk difference; bars show percentile 95% confidence intervals from 20,000 stratum-level bootstrap resamples. Paired strata required at least 20 evaluable cells in each population. In plot order, the double-positive and <i>CA12</i>-triple-positive comparisons include 6, 15, 7, 4, 6, 3, 1 and 1 paired strata. The <i>KRT19</i> comparison includes only 4 GSE251686 strata because two samples lack the feature; other counts are unchanged. Intervals collapse to the point when only one anatomical library is eligible and are not evidence of precise population inference. The dashed line marks no paired difference. Frozen doublet exclusions were retained; missing features were not treated as zero expression. Same-barcode detection is transcriptional evidence and does not establish microscopic tissue colocalization.",
+    "evidence": {
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:forest_coexpression",
+        "D:/投稿/sci-cep-np/cep-np/scripts/51_cell_level_coexpression_and_dipper_audit.py:paired_cohort_summaries",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/cell_level_coexpression_audit/cohort_paired_enrichment.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/cell_level_coexpression_audit/donor_coexpression_proportions.tsv"
+      ],
+      "verified": "Plot cohort order is GSE251686,GSE153066,GSE244889,GSE233666,GSE222182,GSE160756 NP,AF,CEP. Intervals are bootstrap mean CIs, not IQRs. Risk difference is a proportion (0.1=10 percentage points). One-stratum bootstrap function returns point,point."
+    },
+    "renderedCaption": "From left to right, the panels show <i>AEBP1</i>-<i>COL5A2</i> double positivity, double positivity plus <i>KRT19</i>, and double positivity plus <i>CA12</i>. Each required gene must have at least one UMI in the same original cell barcode. Within each donor/sample or anatomical-library stratum, the positive-cell fraction in other NP-related cells was subtracted from that in remodelling-state cells. Points show the mean paired risk difference; bars show percentile 95% confidence intervals from 20,000 stratum-level bootstrap resamples. Paired strata required at least 20 evaluable cells in each population. In plot order, the double-positive and <i>CA12</i>-triple-positive comparisons include 6, 15, 7, 4, 6, 3, 1 and 1 paired strata. The <i>KRT19</i> comparison includes only 4 GSE251686 strata because two samples lack the feature; other counts are unchanged. Intervals collapse to the point when only one anatomical library is eligible and are not evidence of precise population inference. The dashed line marks no paired difference. Frozen doublet exclusions were retained; missing features were not treated as zero expression. Same-barcode detection is transcriptional evidence and does not establish microscopic tissue colocalization."
+  },
+  "S14": {
+    "title": "Ambient RNA proxy and UMI threshold sensitivity",
+    "caption": "<b>Supplementary Figure S14. Ambient-RNA proxy and UMI-threshold sensitivity.</b> Positive-cell fractions are compared among cells outside the broad NP/mesenchymal compartment, other NP-related cells and the remodelling state. Columns show <i>AEBP1</i>-<i>COL5A2</i> double positivity, additional <i>KRT19</i> detection and additional <i>CA12</i> detection. The top and bottom rows require at least one and two UMIs per required gene, respectively, in the same raw-count barcode. Each coloured point is the median fraction across available strata within the indicated cohort/tissue, not a single cell; horizontal offsets separate overlapping symbols. There are no error bars. For double positivity and the <i>CA12</i> event, outside/other/state stratum counts are 6/6/6 (GSE251686), 16/16/16 (GSE153066), 7/7/7 (GSE244889), 4/4/4 (GSE233666), 7/7/6 (GSE222182), 2/3/3 (GSE160756 NP), 2/2/2 (AF) and 2/2/2 (CEP). The corresponding GSE251686 <i>KRT19</i> counts are 4/4/4 owing to unavailable features in two samples. These medians use available strata without the 20-cell paired-comparison filter used in S13. This is a proxy check for diffuse low-count signal, not empty-droplet-based decontamination or proof that ambient RNA is absent. Negative detection of <i>KRT19</i> or <i>CA12</i> does not exclude NP identity.",
+    "evidence": {
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:ambient_and_dipper",
+        "D:/投稿/sci-cep-np/cep-np/scripts/51_cell_level_coexpression_and_dipper_audit.py:aggregate_detection",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/cell_level_coexpression_audit/donor_coexpression_proportions.tsv",
+        "D:/投稿/sci-cep-np/cep-np/00_protocol/cell_level_coexpression_and_dipper_audit_frozen_v1.md"
+      ],
+      "verified": "Polishing code directly groups donor proportions by cohort,threshold,event,population and takes median; it does not apply MIN_CELLS=20. Values remain proportions (0.1=10%). No inferential test is plotted."
+    },
+    "renderedCaption": "Positive-cell fractions are compared among cells outside the broad NP/mesenchymal compartment, other NP-related cells and the remodelling state. Columns show <i>AEBP1</i>-<i>COL5A2</i> double positivity, additional <i>KRT19</i> detection and additional <i>CA12</i> detection. The top and bottom rows require at least one and two UMIs per required gene, respectively, in the same raw-count barcode. Each coloured point is the median fraction across available strata within the indicated cohort/tissue, not a single cell; horizontal offsets separate overlapping symbols. There are no error bars. For double positivity and the <i>CA12</i> event, outside/other/state stratum counts are 6/6/6 (GSE251686), 16/16/16 (GSE153066), 7/7/7 (GSE244889), 4/4/4 (GSE233666), 7/7/6 (GSE222182), 2/3/3 (GSE160756 NP), 2/2/2 (AF) and 2/2/2 (CEP). The corresponding GSE251686 <i>KRT19</i> counts are 4/4/4 owing to unavailable features in two samples. These medians use available strata without the 20-cell paired-comparison filter used in S13. This is a proxy check for diffuse low-count signal, not empty-droplet-based decontamination or proof that ambient RNA is absent. Negative detection of <i>KRT19</i> or <i>CA12</i> does not exclude NP identity."
+  },
+  "S15": {
+    "title": "DIPPER regional protein distributions",
+    "caption": "<b>Supplementary Figure S15. DIPPER regional protein distributions.</b> Log2 protein abundance is shown for AEBP1, COL5A2 and KRT19 across outer annulus fibrosus (OAF), inner annulus fibrosus (IAF), the NP/IAF interface and nucleus pulposus (NP), separately for young and old specimens. Dots are regional specimens with available quantitative values. Boxes span the 25th to 75th percentiles, the centre line is the median and whiskers extend to the minimum and maximum; they are not confidence intervals. The source matrix contains 33 regional specimens in each age group, distributed as OAF/IAF/interface/NP=12/6/12/3. Available AEBP1 values follow those counts in both groups. COL5A2 has the same counts except old OAF has 11 values. KRT19 counts are 11/6/12/3 in the young group and 10/2/9/2 in the old group. These are nested regional samples from two source spines, not 66 independent donors. The asterisk flags the contaminant annotation of the KRT19 source protein group. Regional protein distribution does not identify the producing cell or establish same-cell or microscopic colocalization.",
+    "evidence": {
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:ambient_and_dipper",
+        "D:/投稿/sci-cep-np/cep-np/scripts/51_cell_level_coexpression_and_dipper_audit.py:dipper_audit",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/cell_level_coexpression_audit/dipper_target_protein_specimens.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/cell_level_coexpression_audit/coexpression_and_dipper_audit_summary.md",
+        "D:/投稿/sci-cep-np/cep-np/manuscript package BMC Genomics v6/manuscript/Manuscript.docx:Regional protein evidence"
+      ],
+      "verified": "Seaborn boxplot whis=(0,100); source TSV has 66 specimen rows per gene but log2_abundance nonmissing counts differ for COL5A2 and KRT19. The two-spine nesting is retained from the manuscript/source-study description, not inferred from the n=66 rows."
+    },
+    "renderedCaption": "Log2 protein abundance is shown for AEBP1, COL5A2 and KRT19 across outer annulus fibrosus (OAF), inner annulus fibrosus (IAF), the NP/IAF interface and nucleus pulposus (NP), separately for young and old specimens. Dots are regional specimens with available quantitative values. Boxes span the 25th to 75th percentiles, the centre line is the median and whiskers extend to the minimum and maximum; they are not confidence intervals. The source matrix contains 33 regional specimens in each age group, distributed as OAF/IAF/interface/NP=12/6/12/3. Available AEBP1 values follow those counts in both groups. COL5A2 has the same counts except old OAF has 11 values. KRT19 counts are 11/6/12/3 in the young group and 10/2/9/2 in the old group. These are nested regional samples from two source spines, not 66 independent donors. The asterisk flags the contaminant annotation of the KRT19 source protein group. Regional protein distribution does not identify the producing cell or establish same-cell or microscopic colocalization."
+  },
+  "S16": {
+    "title": "Marker pair exclusion and state support sensitivity",
+    "caption": "<b>Supplementary Figure S16. Marker-pair exclusion and state-support sensitivity.</b> (A) Mean donor/library-paired score differences between the original remodelling state and other NP-related cells after excluding <i>AEBP1</i> and <i>COL5A2</i> from the explanatory score. The score averages cohort-standardized log1p counts per 10,000 for the remaining 13 remodelling genes and subtracts the average of the original 10 reference genes. Points are mean paired differences and bars are percentile 95% confidence intervals from 20,000 stratum-level bootstrap resamples. Paired strata require at least 20 cells per population; counts in plot order are 6, 15, 7, 4, 6, 3, 1 and 1. (B) The first two columns report the number of 13 remaining remodelling genes and 8 independent NP/cartilage genes detected in at least 5% of target cells. The third reports the target-cell mean score minus a threshold equal to the broad-compartment mean plus 0.25 broad-compartment standard deviations. Numeric annotations retain their original units; colours are display-scaled separately across the three columns. Complete support requires a non-negative score margin, at least 8/13 remodelling and 3/8 identity genes, at least 30 target cells and at least two strata. The independent identity panel comprises <i>KRT8</i>, <i>KRT18</i>, <i>ACAN</i>, <i>COL2A1</i>, <i>SOX9</i>, <i>COMP</i>, <i>CILP</i> and <i>PRG4</i>, excluding <i>KRT19</i> and <i>CA12</i>. Original state labels and the formal 25-gene score were not changed. This tests dependence on the marker pair, not a full independent state rediscovery.",
+    "evidence": {
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:identity_qc",
+        "D:/投稿/sci-cep-np/cep-np/scripts/52_prepublication_coexpression_qc.py:load_and_score_cells,summarize_circularity",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/prepublication_coexpression_qc/leave_two_out_cohort_summary.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/prepublication_coexpression_qc/leave_two_out_state_support.tsv",
+        "D:/投稿/sci-cep-np/cep-np/00_protocol/prepublication_coexpression_qc_frozen_v1.md"
+      ],
+      "verified": "Score margin formula is target_mean-(broad_mean+0.25*broad_sd), not (target_mean-broad_mean)/broad_sd. GSE160756 NP margin=-0.1512759958; 7/8 contexts pass full support. Display scales first columns by13,8 and third as0.5+margin/(2*maxabs(margin))."
+    },
+    "renderedCaption": "(A) Mean donor/library-paired score differences between the original remodelling state and other NP-related cells after excluding <i>AEBP1</i> and <i>COL5A2</i> from the explanatory score. The score averages cohort-standardized log1p counts per 10,000 for the remaining 13 remodelling genes and subtracts the average of the original 10 reference genes. Points are mean paired differences and bars are percentile 95% confidence intervals from 20,000 stratum-level bootstrap resamples. Paired strata require at least 20 cells per population; counts in plot order are 6, 15, 7, 4, 6, 3, 1 and 1. (B) The first two columns report the number of 13 remaining remodelling genes and 8 independent NP/cartilage genes detected in at least 5% of target cells. The third reports the target-cell mean score minus a threshold equal to the broad-compartment mean plus 0.25 broad-compartment standard deviations. Numeric annotations retain their original units; colours are display-scaled separately across the three columns. Complete support requires a non-negative score margin, at least 8/13 remodelling and 3/8 identity genes, at least 30 target cells and at least two strata. The independent identity panel comprises <i>KRT8</i>, <i>KRT18</i>, <i>ACAN</i>, <i>COL2A1</i>, <i>SOX9</i>, <i>COMP</i>, <i>CILP</i> and <i>PRG4</i>, excluding <i>KRT19</i> and <i>CA12</i>. Original state labels and the formal 25-gene score were not changed. This tests dependence on the marker pair, not a full independent state rediscovery."
+  },
+  "S17": {
+    "title": "Detection depth standardization sensitivity",
+    "caption": "<b>Supplementary Figure S17. Detection-depth standardization sensitivity.</b> (A) For each eligible donor/library, median total UMI counts and detected-gene counts were compared between remodelling and other NP-related cells as log2[(target median+1)/(comparison median+1)], then averaged across strata. Paired stratum counts in the displayed cohort order are 6, 15, 7, 4, 6, 3, 1 and 1; points have no displayed uncertainty bars. (B,C) Cohort-mean <i>AEBP1</i>-<i>COL5A2</i> double-positive risk differences before and after standardizing the same common-support cells, at thresholds of at least one (B) or two (C) UMIs per gene. Within each stratum, total-UMI and detected-gene ranks formed a depth index divided into five bins. Common bins required at least 20 cells per population, and an estimable stratum required at least two such bins and 100 cells per population overall. Both populations were standardized to the pooled shared-bin distribution. The diagonal indicates equality of adjusted and matched unadjusted effects. Numbers identify cohorts as specified below the panels; they are not donor IDs. Both thresholds include 6, 11, 7, 3, 4, 3, 1 and 1 estimable strata for cohorts 1-8, respectively. Risk differences are proportions, with 0.1 representing 10 percentage points. GSE160756 AF and CEP each provide only one paired anatomical library. The analysis tests detection-depth sensitivity while retaining original cells, doublet exclusions and state labels; it is not a new phenotype definition.",
+    "evidence": {
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:identity_qc",
+        "D:/投稿/sci-cep-np/cep-np/scripts/52_prepublication_coexpression_qc.py:summarize_depth_metrics,depth_standardized_effects",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/prepublication_coexpression_qc/depth_metrics_cohort_summary.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/prepublication_coexpression_qc/depth_standardized_cohort_summary.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/prepublication_coexpression_qc/depth_standardized_donor_effects.tsv"
+      ],
+      "verified": "Plot order:1GSE251686,2GSE153066,3GSE244889,4GSE233666,5GSE222182,6GSE160756 NP,7AF,8CEP. Only double-positive event plotted inB/C. Same n at both thresholds. No confidence bars in this figure even though intervals exist in source summary."
+    },
+    "renderedCaption": "(A) For each eligible donor/library, median total UMI counts and detected-gene counts were compared between remodelling and other NP-related cells as log2[(target median+1)/(comparison median+1)], then averaged across strata. Paired stratum counts in the displayed cohort order are 6, 15, 7, 4, 6, 3, 1 and 1; points have no displayed uncertainty bars. (B,C) Cohort-mean <i>AEBP1</i>-<i>COL5A2</i> double-positive risk differences before and after standardizing the same common-support cells, at thresholds of at least one (B) or two (C) UMIs per gene. Within each stratum, total-UMI and detected-gene ranks formed a depth index divided into five bins. Common bins required at least 20 cells per population, and an estimable stratum required at least two such bins and 100 cells per population overall. Both populations were standardized to the pooled shared-bin distribution. The diagonal indicates equality of adjusted and matched unadjusted effects. Numbers identify cohorts as specified below the panels; they are not donor IDs. Both thresholds include 6, 11, 7, 3, 4, 3, 1 and 1 estimable strata for cohorts 1-8, respectively. Risk differences are proportions, with 0.1 representing 10 percentage points. GSE160756 AF and CEP each provide only one paired anatomical library. The analysis tests detection-depth sensitivity while retaining original cells, doublet exclusions and state labels; it is not a new phenotype definition."
+  },
+  "S18": {
+    "title": "Absolute same barcode event prevalence",
+    "caption": "<b>Supplementary Figure S18. Absolute same-barcode event prevalence.</b> Median positive-cell fractions are shown for other NP-related cells (grey) and remodelling-state cells (purple). Columns show <i>AEBP1</i>-<i>COL5A2</i> double positivity, additional <i>KRT19</i> detection and additional <i>CA12</i> detection. Top and bottom rows require at least one and two UMIs per required gene in the same raw-count barcode, respectively. Points are donor/sample or anatomical-library medians; horizontal bars span the 25th to 75th percentiles and are not confidence intervals. Fractions were calculated separately for each population using all strata with evaluable cells, rather than restricting both populations to paired strata with at least 20 cells. In plot order, the double-positive and <i>CA12</i> summaries include 6, 16, 7, 4, 7, 3, 2 and 2 comparator strata, and 6, 16, 7, 4, 6, 3, 2 and 2 remodelling strata. For the <i>KRT19</i> event, GSE251686 has four strata per population; other counts are unchanged. Two GSE251686 samples lacked the <i>KRT19</i> feature and were unavailable, not negative. The symmetric-logarithmic horizontal scale includes zero and is labelled as percentages; its linear region extends to 0.1%. The figure distinguishes absolute prevalence from the relative enrichment in S13. Low or absent detection does not, by itself, disprove NP identity.",
+    "evidence": {
+      "sources": [
+        "D:/投稿/sci-cep-np/cep-np/scripts/61_polish_supplementary_figures.py:identity_qc",
+        "D:/投稿/sci-cep-np/cep-np/scripts/52_prepublication_coexpression_qc.py:absolute_prevalence",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/prepublication_coexpression_qc/absolute_prevalence_cohort_summary.tsv",
+        "D:/投稿/sci-cep-np/cep-np/08_robustness/cell_level_coexpression_audit/donor_coexpression_proportions.tsv"
+      ],
+      "verified": "Error bars are stratum_q1_proportion to stratum_q3_proportion, not bootstrap intervals. Summary uses n_cells_evaluable>0, not paired eligibility. Xscale symlog linthresh=.001. Values at both thresholds retain the same available-stratum counts."
+    },
+    "renderedCaption": "Median positive-cell fractions are shown for other NP-related cells (grey) and remodelling-state cells (purple). Columns show <i>AEBP1</i>-<i>COL5A2</i> double positivity, additional <i>KRT19</i> detection and additional <i>CA12</i> detection. Top and bottom rows require at least one and two UMIs per required gene in the same raw-count barcode, respectively. Points are donor/sample or anatomical-library medians; horizontal bars span the 25th to 75th percentiles and are not confidence intervals. Fractions were calculated separately for each population using all strata with evaluable cells, rather than restricting both populations to paired strata with at least 20 cells. In plot order, the double-positive and <i>CA12</i> summaries include 6, 16, 7, 4, 7, 3, 2 and 2 comparator strata, and 6, 16, 7, 4, 6, 3, 2 and 2 remodelling strata. For the <i>KRT19</i> event, GSE251686 has four strata per population; other counts are unchanged. Two GSE251686 samples lacked the <i>KRT19</i> feature and were unavailable, not negative. The symmetric-logarithmic horizontal scale includes zero and is labelled as percentages; its linear region extends to 0.1%. The figure distinguishes absolute prevalence from the relative enrichment in S13. Low or absent detection does not, by itself, disprove NP identity."
+  }
+}

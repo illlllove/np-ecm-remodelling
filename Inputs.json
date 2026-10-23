@@ -1,0 +1,533 @@
+{
+  "scope": "Frozen display inputs for canonical V6 Figures 1-7 and Supplementary Figures S1-S24",
+  "rawExpressionMatricesIncluded": false,
+  "rawAnalysisRerunIncluded": false,
+  "files": {
+    "Inputs/0613a079f0 cluster markers.tsv.gz": {
+      "sha256": "0613a079f05dfe5b1c4df70afaefb86d00ff2eee4177f62ccd777587d78c071d",
+      "bytes": 927
+    },
+    "Inputs/d03832b02b codetection summary.tsv": {
+      "sha256": "d03832b02b7f877c85df01a563db680a18a5f296ea38505184141fd3d0b16fcf",
+      "bytes": 27107
+    },
+    "Inputs/66f4d311dd identity fixed panel descriptive display.tsv": {
+      "sha256": "66f4d311dd5d5362d46e8d007f1c08a61f539d0ea9e13716e0b08c124b52ad7d",
+      "bytes": 8604
+    },
+    "Inputs/2a5eb793db formal abundance effects.tsv": {
+      "sha256": "2a5eb793dbf2965585811976cc4628e70c767ac10772372ce0ffcb27e89a7fb8",
+      "bytes": 356
+    },
+    "Inputs/5c6934a63c formal donor effects.tsv": {
+      "sha256": "5c6934a63cf4f122d82365323cd368c93eea343702889b22caf3dd535ee5b66b",
+      "bytes": 519
+    },
+    "Inputs/ab129d0717 GSE244889 strict marker identity sensitivity.tsv": {
+      "sha256": "ab129d07173bb315c4c5239589021e1d97fa72755993494bc7e0d02a981f2588",
+      "bytes": 252
+    },
+    "Inputs/c36d96a084 remodeling state score effects.tsv": {
+      "sha256": "c36d96a08412b9d2b7c5401c57cec0b054564b551ad7f1077fc5d6d85826270e",
+      "bytes": 895
+    },
+    "Inputs/14f17ad232 symmetric coordinate decomposition.tsv": {
+      "sha256": "14f17ad2326b245576424ea0f766bfb60252ddd9bd6f63e46b5dd01ec5685171",
+      "bytes": 335
+    },
+    "Inputs/a290f5e897 counterfactual grid.tsv": {
+      "sha256": "a290f5e897298f76bec285e455a93b3d5b8125a140a490a92f1b5999f7945ed7",
+      "bytes": 53125
+    },
+    "Inputs/2e113c9ea4 deconvolution benchmark.tsv": {
+      "sha256": "2e113c9ea43bf63c278014081e08eca01364fa6ef16082b195c9e3d98b2d574e",
+      "bytes": 779
+    },
+    "Inputs/bd9c6741c0 deconvolution leave one donor metrics.tsv": {
+      "sha256": "bd9c6741c0310ee0407ddc593532e0b7dfc92dd29ccea5825119cd2118d4b7d2",
+      "bytes": 3077
+    },
+    "Inputs/0dbd9c467e state internal conditional associations.tsv": {
+      "sha256": "0dbd9c467ea45ccb7c8f2b76753fac563c045d4baf85dbd6f59d9dd1a480d024",
+      "bytes": 5423
+    },
+    "Inputs/0c5a0e0581 GSE56081 sample scores.tsv": {
+      "sha256": "0c5a0e058138f515f6046778b996833ebbd1c960ad42c81bf13af7e53404d9f4",
+      "bytes": 2232
+    },
+    "Inputs/397e7068bd GSE70362 np donor scores.tsv": {
+      "sha256": "397e7068bd15cdadfcb06b6702390de1f93b579ac51ba30021f3ad7b97e8e0c6",
+      "bytes": 2119
+    },
+    "Inputs/921ab48c48 GSE244889 bulk sample scores.tsv": {
+      "sha256": "921ab48c48e0d454314c4311d7e490ff1eaebcf66ec289c4acf4bb743361ee96",
+      "bytes": 915
+    },
+    "Inputs/f51384c1fc sample scores.tsv": {
+      "sha256": "f51384c1fc6832bbb327b11122be3a818f2cba2a2065886ea1e7dc9514800ba6",
+      "bytes": 1015
+    },
+    "Inputs/e889a13764 unintegrated sample tissue abundance.tsv": {
+      "sha256": "e889a137641aa7b27471bfe6b0985823cb2d886bfd8e4298cf63b81aeabf769c",
+      "bytes": 471
+    },
+    "Inputs/4e75eaedeb unintegrated broad pseudobulk log2cpm.tsv": {
+      "sha256": "4e75eaedeba2a471accbb1c977c876b20ae163789f47db72132cbe6355d7742f",
+      "bytes": 2173
+    },
+    "Inputs/d35c28a6b3 frozen signature used.tsv": {
+      "sha256": "d35c28a6b316b97201a428ea1fca853b8a6b7d1ebfd196e8f2baae404d31e5ec",
+      "bytes": 2452
+    },
+    "Inputs/4519039a01 unintegrated tissue summary.tsv": {
+      "sha256": "4519039a010333b5fbed10c3f026400bddd530b464dd1098c773eb4692dfffbe",
+      "bytes": 383
+    },
+    "Inputs/5bd0f7afa7 harmony tissue summary.tsv": {
+      "sha256": "5bd0f7afa774a21acd4cf290c127863e0d5b07529e05ec4790fd0308a00c8cea",
+      "bytes": 377
+    },
+    "Inputs/49daf54490 sample state presence.tsv": {
+      "sha256": "49daf544901f2b20b24c2d1cabe43e1dd65bf508baaecd6cb7023689d9682b18",
+      "bytes": 451
+    },
+    "Inputs/b55f668b08 outcome blind cluster state alignment.tsv": {
+      "sha256": "b55f668b0851b1b5a3b3da8d7cec4d2742edd84ba46148ac0b626931efb9cb61",
+      "bytes": 10901
+    },
+    "Inputs/e1e3ef66a3 independent diffusion pseudotime clusters.tsv": {
+      "sha256": "e1e3ef66a3bb1ee88c606646342d9eda3deeaeca172820819f374b474a6dbfaa",
+      "bytes": 3762
+    },
+    "Inputs/2b4dc31532 exploratory regulator priority.tsv": {
+      "sha256": "2b4dc31532dcfc13914b175111b7f844cf17c2aded7fbcb8738bbc55ac04553c",
+      "bytes": 6743
+    },
+    "Inputs/4c474b67b3 stratified cohort effects.tsv": {
+      "sha256": "4c474b67b36f0bcd17d772ddbc3de15b7f21b2a8474769ec4195c5db59202319",
+      "bytes": 1300
+    },
+    "Inputs/dfa0113aba stratified random effects meta.tsv": {
+      "sha256": "dfa0113aba1105d33d1f1a91b38ecc5b0443a44a774836567c3df091c1017b37",
+      "bytes": 597
+    },
+    "Inputs/3d47d8bd1b cohort paired enrichment.tsv": {
+      "sha256": "3d47d8bd1bf09dac6d330ad27d032c9b3e6c84c4c7e7f828deba643f708e95b6",
+      "bytes": 7875
+    },
+    "Inputs/265d43dd8a donor coexpression proportions.tsv": {
+      "sha256": "265d43dd8a235827429430606527ea0113e917a442f9d9092716c896be62b929",
+      "bytes": 164881
+    },
+    "Inputs/b0004c5b82 dipper target protein specimens.tsv": {
+      "sha256": "b0004c5b82306c36d524664756f925fb73c93cbe9aaa57c3035917c419b9970e",
+      "bytes": 9846
+    },
+    "Inputs/ae54236142 dipper np af descriptive contrast.tsv": {
+      "sha256": "ae54236142e00a130c81c66e2aa42fe7c1865aa4cd2633457674e2b9246b7cc3",
+      "bytes": 1024
+    },
+    "Inputs/3bff1a9435 depth standardized cohort summary.tsv": {
+      "sha256": "3bff1a9435ccff84fcf243d757bbd32373c15bd757cc7ed1e9ef4f53f76445f5",
+      "bytes": 10195
+    },
+    "Inputs/0b6331f41f absolute prevalence cohort summary.tsv": {
+      "sha256": "0b6331f41f5fdb7c80d26666d72b13622e9b69d786f70f3ca83da67f185c648e",
+      "bytes": 15962
+    },
+    "Inputs/1bbb6f02d1 leave two out cohort summary.tsv": {
+      "sha256": "1bbb6f02d100f591e97a578ae2ebc4b72f12f5e75b14232fb30eec89209ea25e",
+      "bytes": 2562
+    },
+    "Inputs/dc40c112a5 leave two out state support.tsv": {
+      "sha256": "dc40c112a5387d78eeec5ab8d5c5552c7e43584c7e88a9439e1570990c4cc754",
+      "bytes": 1103
+    },
+    "Inputs/083963df8a depth metrics cohort summary.tsv": {
+      "sha256": "083963df8a0461a30dc5671162f391b0fc21bece91321df683cd6ec5943d658b",
+      "bytes": 2654
+    },
+    "Inputs/507e457307 clinical context descriptive profiles.tsv": {
+      "sha256": "507e457307efecfbe1d19d36279cc52a0b87bbc0e3d5f6d29f4738183f267c68",
+      "bytes": 3948
+    },
+    "Inputs/f08f40adc4 programme paired descriptive contrasts.tsv": {
+      "sha256": "f08f40adc47547b26599e5ceb7417bc7706c9613dc528ab006772fc905e40547",
+      "bytes": 4566
+    },
+    "Inputs/d03832b02b cohort codetection median iqr.tsv": {
+      "sha256": "d03832b02b7f877c85df01a563db680a18a5f296ea38505184141fd3d0b16fcf",
+      "bytes": 27107
+    },
+    "Inputs/6948a5e389 cohort gene expression medians.tsv": {
+      "sha256": "6948a5e389a799db348f5013a309124c8c9ce287f405d0df50b7dfa7a795c95b",
+      "bytes": 73750
+    },
+    "Inputs/85ac43f07c S01 frozen umap display.tsv.gz": {
+      "sha256": "85ac43f07c665e01163e982ecb5a04c72bb491f2b811b45024d5fee94a755db5",
+      "bytes": 711430
+    },
+    "Inputs/d42f0adfd8 S02 frozen umap display.tsv.gz": {
+      "sha256": "d42f0adfd8975f73be13013ab0fd9eac1a937091590a9b6998c5cd4d1802c5fc",
+      "bytes": 239913
+    },
+    "Inputs/d2e561b248 S03 frozen umap display.tsv.gz": {
+      "sha256": "d2e561b24864836c580482c69f4d3306e2f9a58c603c43c064f43f0ebae08a1e",
+      "bytes": 1918394
+    },
+    "Inputs/721bb84ded S04 frozen umap display.tsv.gz": {
+      "sha256": "721bb84dedcd8dacf30275a452910368017c07ff9a4ff4d5c7e26a6f57d6f48b",
+      "bytes": 3165197
+    },
+    "Inputs/2844493764 S07 frozen umap display.tsv.gz": {
+      "sha256": "2844493764f546da15de46e411df72d37d3fb074bc3de35f8f0129e31818164c",
+      "bytes": 685323
+    },
+    "Inputs/e450057c2e display input provenance.json": {
+      "sha256": "e450057c2e294be0ba2b692f4adee6147be520e02d3f24d7e685fc703df9869a",
+      "bytes": 2742
+    },
+    "Inputs/977ed4272a GSE244889 donor audit.csv": {
+      "sha256": "977ed4272a9a3f83f45be842a584d6db2c2fc78e0e3bd30138d4b3fd8ec89c33",
+      "bytes": 721
+    },
+    "Inputs/34d7e30b7d GSE244889 leave one donor audit.csv": {
+      "sha256": "34d7e30b7dcaed08029ae536d5d377836159105c5c715a3cfd4477461ee4e5db",
+      "bytes": 892
+    },
+    "Inputs/d7af3ad9a1 All donor proportions.csv": {
+      "sha256": "d7af3ad9a131d726da845f210b34ca6172c65bf1ceb17ce568eef346bc7bac99",
+      "bytes": 1666
+    },
+    "Inputs/fd4c70d908 same barcode events by donor population.tsv": {
+      "sha256": "fd4c70d908e77a4d5ae168a60abc6960d98964106c95e02d3ad466dce566f099",
+      "bytes": 18125
+    },
+    "Inputs/576a5f3d7c paired donor effects.tsv": {
+      "sha256": "576a5f3d7c758558fa317d2b3041f44aa03d4402dae3b09bc83a78b8c84b8288",
+      "bytes": 3154
+    },
+    "Inputs/d634683d89 depth standardized by donor.tsv": {
+      "sha256": "d634683d89f1a4f9b58e97c5498d3fa7d3c5229a41154f38f6b9dd7a0ea67065",
+      "bytes": 3786
+    },
+    "Inputs/e8b7ca0360 donor inference summary.tsv": {
+      "sha256": "e8b7ca03609e0a51a2cd50abf4e0f169946d6b43c9a8cfec2f4f07e2ca92b055",
+      "bytes": 1086
+    },
+    "Inputs/0978a9e1fe leave one donor out effects.tsv": {
+      "sha256": "0978a9e1fef2d4a5d8ec3ee65109462aa99f229d60efcd58dc6ed181706d63ef",
+      "bytes": 8162
+    },
+    "Inputs/6258ab4b24 absolute prevalence.tsv": {
+      "sha256": "6258ab4b24548e095721ce20fef6181244b0b16b8dcb6edc8d5d856a7852fd3c",
+      "bytes": 1460
+    },
+    "Inputs/GSE165722 frozen UMAP display.tsv.gz": {
+      "sha256": "59efa25f08e8a7a6091b683c60d01a49b957a28cbf8de6c67b950a072e4f96d9",
+      "bytes": 811270
+    },
+    "Inputs/GSE165722 palettes.json": {
+      "sha256": "2d7aefd21d52f688ba078070a42ce0d4d24d7a9a5d6c163f3c2b47f1b6c8cad3",
+      "bytes": 1180
+    },
+    "Inputs/Caption definitions.json": {
+      "sha256": "33be416fcecb6c3ac62b9657625d57d918a020be47ee99e597d065961130c897",
+      "bytes": 64033
+    },
+    "Inputs/Supplement titles.json": {
+      "sha256": "ecb373e67183856a6619c09536dfd404f8e27a74e8fc424b1b4241efc9dd10b5",
+      "bytes": 901
+    },
+    "Inputs/Bulk effect display.tsv": {
+      "sha256": "6c5d3f6911ef4dbef074b09e3b0ff2543ce32e99b95b8858d9f81aa2b1573ef4",
+      "bytes": 356
+    },
+    "Inputs/Bulk effect provenance.json": {
+      "sha256": "19fdcd9485c1503e5c537f318072b0a04b6f63fd9ba4f38571a60268883a519b",
+      "bytes": 981
+    }
+  },
+  "sourceMapping": [
+    {
+      "sourceRelativePath": "cep-np/manuscript_package_bmc_genomics_v3/editorial/presentation inputs/cluster markers.tsv.gz",
+      "packagedInput": "Inputs/0613a079f0 cluster markers.tsv.gz",
+      "sha256": "0613a079f05dfe5b1c4df70afaefb86d00ff2eee4177f62ccd777587d78c071d"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse233666/cluster_markers.tsv.gz",
+      "packagedInput": "Inputs/0613a079f0 cluster markers.tsv.gz",
+      "sha256": "0613a079f05dfe5b1c4df70afaefb86d00ff2eee4177f62ccd777587d78c071d"
+    },
+    {
+      "sourceRelativePath": "cep-np/manuscript_package_bmc_genomics_v3/editorial/presentation inputs/codetection summary.tsv",
+      "packagedInput": "Inputs/d03832b02b codetection summary.tsv",
+      "sha256": "d03832b02b7f877c85df01a563db680a18a5f296ea38505184141fd3d0b16fcf"
+    },
+    {
+      "sourceRelativePath": "results/gse165722_independent_validation/04_phenotype/identity_fixed_panel_descriptive_display.tsv",
+      "packagedInput": "Inputs/66f4d311dd identity fixed panel descriptive display.tsv",
+      "sha256": "66f4d311dd5d5362d46e8d007f1c08a61f539d0ea9e13716e0b08c124b52ad7d"
+    },
+    {
+      "sourceRelativePath": "cep-np/09_directiona_composition_bulk/02_differential_abundance/formal_abundance_effects.tsv",
+      "packagedInput": "Inputs/2a5eb793db formal abundance effects.tsv",
+      "sha256": "2a5eb793dbf2965585811976cc4628e70c767ac10772372ce0ffcb27e89a7fb8"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse244889/formal_donor_effects.tsv",
+      "packagedInput": "Inputs/5c6934a63c formal donor effects.tsv",
+      "sha256": "5c6934a63cf4f122d82365323cd368c93eea343702889b22caf3dd535ee5b66b"
+    },
+    {
+      "sourceRelativePath": "cep-np/09_frozen_tables/wp1_wp5_external_validation_v1/gse244889_strict_marker_identity_sensitivity.tsv",
+      "packagedInput": "Inputs/ab129d0717 GSE244889 strict marker identity sensitivity.tsv",
+      "sha256": "ab129d07173bb315c4c5239589021e1d97fa72755993494bc7e0d02a981f2588"
+    },
+    {
+      "sourceRelativePath": "cep-np/09_directiona_composition_bulk/03_state_pseudobulk/remodeling_state_score_effects.tsv",
+      "packagedInput": "Inputs/c36d96a084 remodeling state score effects.tsv",
+      "sha256": "c36d96a08412b9d2b7c5401c57cec0b054564b551ad7f1077fc5d6d85826270e"
+    },
+    {
+      "sourceRelativePath": "cep-np/09_directiona_composition_bulk/04_decomposition/symmetric_coordinate_decomposition.tsv",
+      "packagedInput": "Inputs/14f17ad232 symmetric coordinate decomposition.tsv",
+      "sha256": "14f17ad2326b245576424ea0f766bfb60252ddd9bd6f63e46b5dd01ec5685171"
+    },
+    {
+      "sourceRelativePath": "cep-np/09_directiona_composition_bulk/05_counterfactual_bulk/counterfactual_grid.tsv",
+      "packagedInput": "Inputs/a290f5e897 counterfactual grid.tsv",
+      "sha256": "a290f5e897298f76bec285e455a93b3d5b8125a140a490a92f1b5999f7945ed7"
+    },
+    {
+      "sourceRelativePath": "cep-np/09_directiona_composition_bulk/06_deconvolution/deconvolution_benchmark.tsv",
+      "packagedInput": "Inputs/2e113c9ea4 deconvolution benchmark.tsv",
+      "sha256": "2e113c9ea43bf63c278014081e08eca01364fa6ef16082b195c9e3d98b2d574e"
+    },
+    {
+      "sourceRelativePath": "cep-np/09_directiona_composition_bulk/06_deconvolution/deconvolution_leave_one_donor_metrics.tsv",
+      "packagedInput": "Inputs/bd9c6741c0 deconvolution leave one donor metrics.tsv",
+      "sha256": "bd9c6741c0310ee0407ddc593532e0b7dfc92dd29ccea5825119cd2118d4b7d2"
+    },
+    {
+      "sourceRelativePath": "cep-np/09_directiona_composition_bulk/07_regulatory/state_internal_conditional_associations.tsv",
+      "packagedInput": "Inputs/0dbd9c467e state internal conditional associations.tsv",
+      "sha256": "0dbd9c467ea45ccb7c8f2b76753fac563c045d4baf85dbd6f59d9dd1a480d024"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse56081/gse56081_sample_scores.tsv",
+      "packagedInput": "Inputs/0c5a0e0581 GSE56081 sample scores.tsv",
+      "sha256": "0c5a0e058138f515f6046778b996833ebbd1c960ad42c81bf13af7e53404d9f4"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse70362/gse70362_np_donor_scores.tsv",
+      "packagedInput": "Inputs/397e7068bd GSE70362 np donor scores.tsv",
+      "sha256": "397e7068bd15cdadfcb06b6702390de1f93b579ac51ba30021f3ad7b97e8e0c6"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse244889/gse244889_bulk_sample_scores.tsv",
+      "packagedInput": "Inputs/921ab48c48 GSE244889 bulk sample scores.tsv",
+      "sha256": "921ab48c48e0d454314c4311d7e490ff1eaebcf66ec289c4acf4bb743361ee96"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse186542/sample_scores.tsv",
+      "packagedInput": "Inputs/f51384c1fc sample scores.tsv",
+      "sha256": "f51384c1fc6832bbb327b11122be3a818f2cba2a2065886ea1e7dc9514800ba6"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse160756/unintegrated_sample_tissue_abundance.tsv",
+      "packagedInput": "Inputs/e889a13764 unintegrated sample tissue abundance.tsv",
+      "sha256": "e889a137641aa7b27471bfe6b0985823cb2d886bfd8e4298cf63b81aeabf769c"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse160756/unintegrated_broad_pseudobulk_log2cpm.tsv",
+      "packagedInput": "Inputs/4e75eaedeb unintegrated broad pseudobulk log2cpm.tsv",
+      "sha256": "4e75eaedeba2a471accbb1c977c876b20ae163789f47db72132cbe6355d7742f"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse160756/frozen_signature_used.tsv",
+      "packagedInput": "Inputs/d35c28a6b3 frozen signature used.tsv",
+      "sha256": "d35c28a6b316b97201a428ea1fca853b8a6b7d1ebfd196e8f2baae404d31e5ec"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse160756/unintegrated_tissue_summary.tsv",
+      "packagedInput": "Inputs/4519039a01 unintegrated tissue summary.tsv",
+      "sha256": "4519039a010333b5fbed10c3f026400bddd530b464dd1098c773eb4692dfffbe"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse160756/harmony_tissue_summary.tsv",
+      "packagedInput": "Inputs/5bd0f7afa7 harmony tissue summary.tsv",
+      "sha256": "5bd0f7afa774a21acd4cf290c127863e0d5b07529e05ec4790fd0308a00c8cea"
+    },
+    {
+      "sourceRelativePath": "cep-np/07_validation/gse233666/sample_state_presence.tsv",
+      "packagedInput": "Inputs/49daf54490 sample state presence.tsv",
+      "sha256": "49daf544901f2b20b24c2d1cabe43e1dd65bf508baaecd6cb7023689d9682b18"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/state_deep_dive/outcome_blind_cluster_state_alignment.tsv",
+      "packagedInput": "Inputs/b55f668b08 outcome blind cluster state alignment.tsv",
+      "sha256": "b55f668b0851b1b5a3b3da8d7cec4d2742edd84ba46148ac0b626931efb9cb61"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/state_deep_dive/independent_diffusion_pseudotime_clusters.tsv",
+      "packagedInput": "Inputs/e1e3ef66a3 independent diffusion pseudotime clusters.tsv",
+      "sha256": "e1e3ef66a3bb1ee88c606646342d9eda3deeaeca172820819f374b474a6dbfaa"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/state_deep_dive/exploratory_regulator_priority.tsv",
+      "packagedInput": "Inputs/2b4dc31532 exploratory regulator priority.tsv",
+      "sha256": "2b4dc31532dcfc13914b175111b7f844cf17c2aded7fbcb8738bbc55ac04553c"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/frozen_signature_meta/stratified_cohort_effects.tsv",
+      "packagedInput": "Inputs/4c474b67b3 stratified cohort effects.tsv",
+      "sha256": "4c474b67b36f0bcd17d772ddbc3de15b7f21b2a8474769ec4195c5db59202319"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/frozen_signature_meta/stratified_random_effects_meta.tsv",
+      "packagedInput": "Inputs/dfa0113aba stratified random effects meta.tsv",
+      "sha256": "dfa0113aba1105d33d1f1a91b38ecc5b0443a44a774836567c3df091c1017b37"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/cell_level_coexpression_audit/cohort_paired_enrichment.tsv",
+      "packagedInput": "Inputs/3d47d8bd1b cohort paired enrichment.tsv",
+      "sha256": "3d47d8bd1bf09dac6d330ad27d032c9b3e6c84c4c7e7f828deba643f708e95b6"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/cell_level_coexpression_audit/donor_coexpression_proportions.tsv",
+      "packagedInput": "Inputs/265d43dd8a donor coexpression proportions.tsv",
+      "sha256": "265d43dd8a235827429430606527ea0113e917a442f9d9092716c896be62b929"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/cell_level_coexpression_audit/dipper_target_protein_specimens.tsv",
+      "packagedInput": "Inputs/b0004c5b82 dipper target protein specimens.tsv",
+      "sha256": "b0004c5b82306c36d524664756f925fb73c93cbe9aaa57c3035917c419b9970e"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/cell_level_coexpression_audit/dipper_np_af_descriptive_contrast.tsv",
+      "packagedInput": "Inputs/ae54236142 dipper np af descriptive contrast.tsv",
+      "sha256": "ae54236142e00a130c81c66e2aa42fe7c1865aa4cd2633457674e2b9246b7cc3"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/prepublication_coexpression_qc/depth_standardized_cohort_summary.tsv",
+      "packagedInput": "Inputs/3bff1a9435 depth standardized cohort summary.tsv",
+      "sha256": "3bff1a9435ccff84fcf243d757bbd32373c15bd757cc7ed1e9ef4f53f76445f5"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/prepublication_coexpression_qc/absolute_prevalence_cohort_summary.tsv",
+      "packagedInput": "Inputs/0b6331f41f absolute prevalence cohort summary.tsv",
+      "sha256": "0b6331f41f5fdb7c80d26666d72b13622e9b69d786f70f3ca83da67f185c648e"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/prepublication_coexpression_qc/leave_two_out_cohort_summary.tsv",
+      "packagedInput": "Inputs/1bbb6f02d1 leave two out cohort summary.tsv",
+      "sha256": "1bbb6f02d100f591e97a578ae2ebc4b72f12f5e75b14232fb30eec89209ea25e"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/prepublication_coexpression_qc/leave_two_out_state_support.tsv",
+      "packagedInput": "Inputs/dc40c112a5 leave two out state support.tsv",
+      "sha256": "dc40c112a5387d78eeec5ab8d5c5552c7e43584c7e88a9439e1570990c4cc754"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/prepublication_coexpression_qc/depth_metrics_cohort_summary.tsv",
+      "packagedInput": "Inputs/083963df8a depth metrics cohort summary.tsv",
+      "sha256": "083963df8a0461a30dc5671162f391b0fc21bece91321df683cd6ec5943d658b"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/literature_phenotype_context_audit/clinical_context_descriptive_profiles.tsv",
+      "packagedInput": "Inputs/507e457307 clinical context descriptive profiles.tsv",
+      "sha256": "507e457307efecfbe1d19d36279cc52a0b87bbc0e3d5f6d29f4738183f267c68"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/literature_phenotype_context_audit/programme_paired_descriptive_contrasts.tsv",
+      "packagedInput": "Inputs/f08f40adc4 programme paired descriptive contrasts.tsv",
+      "sha256": "f08f40adc47547b26599e5ceb7417bc7706c9613dc528ab006772fc905e40547"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/literature_phenotype_context_audit/cohort_codetection_median_iqr.tsv",
+      "packagedInput": "Inputs/d03832b02b cohort codetection median iqr.tsv",
+      "sha256": "d03832b02b7f877c85df01a563db680a18a5f296ea38505184141fd3d0b16fcf"
+    },
+    {
+      "sourceRelativePath": "cep-np/08_robustness/literature_phenotype_context_audit/cohort_gene_expression_medians.tsv",
+      "packagedInput": "Inputs/6948a5e389 cohort gene expression medians.tsv",
+      "sha256": "6948a5e389a799db348f5013a309124c8c9ce287f405d0df50b7dfa7a795c95b"
+    },
+    {
+      "sourceRelativePath": "cep-np/10_figures_manuscript/supplementary_polish_inputs/s01_frozen_umap_display.tsv.gz",
+      "packagedInput": "Inputs/85ac43f07c S01 frozen umap display.tsv.gz",
+      "sha256": "85ac43f07c665e01163e982ecb5a04c72bb491f2b811b45024d5fee94a755db5"
+    },
+    {
+      "sourceRelativePath": "cep-np/10_figures_manuscript/supplementary_polish_inputs/s02_frozen_umap_display.tsv.gz",
+      "packagedInput": "Inputs/d42f0adfd8 S02 frozen umap display.tsv.gz",
+      "sha256": "d42f0adfd8975f73be13013ab0fd9eac1a937091590a9b6998c5cd4d1802c5fc"
+    },
+    {
+      "sourceRelativePath": "cep-np/10_figures_manuscript/supplementary_polish_inputs/s03_frozen_umap_display.tsv.gz",
+      "packagedInput": "Inputs/d2e561b248 S03 frozen umap display.tsv.gz",
+      "sha256": "d2e561b24864836c580482c69f4d3306e2f9a58c603c43c064f43f0ebae08a1e"
+    },
+    {
+      "sourceRelativePath": "cep-np/10_figures_manuscript/supplementary_polish_inputs/s04_frozen_umap_display.tsv.gz",
+      "packagedInput": "Inputs/721bb84ded S04 frozen umap display.tsv.gz",
+      "sha256": "721bb84dedcd8dacf30275a452910368017c07ff9a4ff4d5c7e26a6f57d6f48b"
+    },
+    {
+      "sourceRelativePath": "cep-np/10_figures_manuscript/supplementary_polish_inputs/s07_frozen_umap_display.tsv.gz",
+      "packagedInput": "Inputs/2844493764 S07 frozen umap display.tsv.gz",
+      "sha256": "2844493764f546da15de46e411df72d37d3fb074bc3de35f8f0129e31818164c"
+    },
+    {
+      "sourceRelativePath": "cep-np/10_figures_manuscript/supplementary_polish_inputs/display_input_provenance.json",
+      "packagedInput": "Inputs/e450057c2e display input provenance.json",
+      "sha256": "e450057c2e294be0ba2b692f4adee6147be520e02d3f24d7e685fc703df9869a"
+    },
+    {
+      "sourceRelativePath": "独立审查/表型与供体审查 20261021/gse244889 donor audit.csv",
+      "packagedInput": "Inputs/977ed4272a GSE244889 donor audit.csv",
+      "sha256": "977ed4272a9a3f83f45be842a584d6db2c2fc78e0e3bd30138d4b3fd8ec89c33"
+    },
+    {
+      "sourceRelativePath": "独立审查/表型与供体审查 20261021/gse244889 leave one donor audit.csv",
+      "packagedInput": "Inputs/34d7e30b7d GSE244889 leave one donor audit.csv",
+      "sha256": "34d7e30b7dcaed08029ae536d5d377836159105c5c715a3cfd4477461ee4e5db"
+    },
+    {
+      "sourceRelativePath": "独立审查/表型与供体审查 20261021/all donor proportions.csv",
+      "packagedInput": "Inputs/d7af3ad9a1 All donor proportions.csv",
+      "sha256": "d7af3ad9a131d726da845f210b34ca6172c65bf1ceb17ce568eef346bc7bac99"
+    },
+    {
+      "sourceRelativePath": "results/gse165722_independent_validation/04_phenotype/same_barcode_events_by_donor_population.tsv",
+      "packagedInput": "Inputs/fd4c70d908 same barcode events by donor population.tsv",
+      "sha256": "fd4c70d908e77a4d5ae168a60abc6960d98964106c95e02d3ad466dce566f099"
+    },
+    {
+      "sourceRelativePath": "results/gse165722_independent_validation/06_cluster18_sensitivity/tables/paired_donor_effects.tsv",
+      "packagedInput": "Inputs/576a5f3d7c paired donor effects.tsv",
+      "sha256": "576a5f3d7c758558fa317d2b3041f44aa03d4402dae3b09bc83a78b8c84b8288"
+    },
+    {
+      "sourceRelativePath": "results/gse165722_independent_validation/06_cluster18_sensitivity/tables/depth_standardized_by_donor.tsv",
+      "packagedInput": "Inputs/d634683d89 depth standardized by donor.tsv",
+      "sha256": "d634683d89f1a4f9b58e97c5498d3fa7d3c5229a41154f38f6b9dd7a0ea67065"
+    },
+    {
+      "sourceRelativePath": "results/gse165722_independent_validation/06_cluster18_sensitivity/tables/donor_inference_summary.tsv",
+      "packagedInput": "Inputs/e8b7ca0360 donor inference summary.tsv",
+      "sha256": "e8b7ca03609e0a51a2cd50abf4e0f169946d6b43c9a8cfec2f4f07e2ca92b055"
+    },
+    {
+      "sourceRelativePath": "results/gse165722_independent_validation/06_cluster18_sensitivity/tables/leave_one_donor_out_effects.tsv",
+      "packagedInput": "Inputs/0978a9e1fe leave one donor out effects.tsv",
+      "sha256": "0978a9e1fef2d4a5d8ec3ee65109462aa99f229d60efcd58dc6ed181706d63ef"
+    },
+    {
+      "sourceRelativePath": "results/gse165722_independent_validation/06_cluster18_sensitivity/tables/absolute_prevalence.tsv",
+      "packagedInput": "Inputs/6258ab4b24 absolute prevalence.tsv",
+      "sha256": "6258ab4b24548e095721ce20fef6181244b0b16b8dcb6edc8d5d856a7852fd3c"
+    }
+  ]
+}

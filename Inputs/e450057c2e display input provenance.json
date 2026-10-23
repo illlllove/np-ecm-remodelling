@@ -1,0 +1,85 @@
+[
+  {
+    "figure": 1,
+    "source": "07_validation/GSE222182/GSE222182_primary_independent_annotated.h5ad",
+    "cells": 18876,
+    "display_input": "S01_frozen_umap_display.tsv.gz",
+    "display_sha256": "85ac43f07c665e01163e982ecb5a04c72bb491f2b811b45024d5fee94a755db5",
+    "coordinates_and_scores_roundtrip_exact": true,
+    "annotation_columns": [
+      "sample_id",
+      "condition",
+      "leiden_0.8",
+      "transition_score",
+      "broad_NP_mesenchymal",
+      "eligible_remodeling_state"
+    ],
+    "embedding_recomputed": false
+  },
+  {
+    "figure": 2,
+    "source": "07_validation/GSE222182/GSE222182_culture_independent_annotated.h5ad",
+    "cells": 6375,
+    "display_input": "S02_frozen_umap_display.tsv.gz",
+    "display_sha256": "d42f0adfd8975f73be13013ab0fd9eac1a937091590a9b6998c5cd4d1802c5fc",
+    "coordinates_and_scores_roundtrip_exact": true,
+    "annotation_columns": [
+      "sample_id",
+      "condition",
+      "leiden_0.8",
+      "transition_score",
+      "broad_NP_mesenchymal",
+      "eligible_remodeling_state"
+    ],
+    "embedding_recomputed": false
+  },
+  {
+    "figure": 3,
+    "source": "07_validation/GSE244889/GSE244889_independent_annotated.h5ad",
+    "cells": 52560,
+    "display_input": "S03_frozen_umap_display.tsv.gz",
+    "display_sha256": "d2e561b24864836c580482c69f4d3306e2f9a58c603c43c064f43f0ebae08a1e",
+    "coordinates_and_scores_roundtrip_exact": true,
+    "annotation_columns": [
+      "donor_id",
+      "condition",
+      "leiden_0.8",
+      "transition_score",
+      "broad_NP_mesenchymal",
+      "eligible_remodeling_state"
+    ],
+    "embedding_recomputed": false
+  },
+  {
+    "figure": 4,
+    "source": "07_validation/GSE160756/GSE160756_tissue_background_annotated.h5ad",
+    "cells": 89047,
+    "display_input": "S04_frozen_umap_display.tsv.gz",
+    "display_sha256": "721bb84dedcd8dacf30275a452910368017c07ff9a4ff4d5c7e26a6f57d6f48b",
+    "coordinates_and_scores_roundtrip_exact": true,
+    "annotation_columns": [
+      "sample_id",
+      "tissue",
+      "leiden_unintegrated",
+      "transition_score",
+      "remodeling_state_unintegrated"
+    ],
+    "embedding_recomputed": false
+  },
+  {
+    "figure": 7,
+    "source": "07_validation/GSE233666/GSE233666_independent_state_existence.h5ad",
+    "cells": 19081,
+    "display_input": "S07_frozen_umap_display.tsv.gz",
+    "display_sha256": "2844493764f546da15de46e411df72d37d3fb074bc3de35f8f0129e31818164c",
+    "coordinates_and_scores_roundtrip_exact": true,
+    "annotation_columns": [
+      "sample_id",
+      "age",
+      "leiden_0.8",
+      "transition_score",
+      "remodeling_state_main"
+    ],
+    "embedding_recomputed": false
+  }
+]

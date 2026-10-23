@@ -1,0 +1,33 @@
+﻿contrast	donor	count_threshold	n_retained_bins	common_cluster18_cells	common_comparator_cells	depth_eligible	reason	full_unadjusted_RD	common_unadjusted_RD	standardized_RD
+original_non_target_NP	GSM5048708	1	0	0	0	False	need >=2 bins and >=100 cells per population	0.6646464646464647		
+original_non_target_NP	GSM5048708	2	0	0	0	False	need >=2 bins and >=100 cells per population	0.3191919191919192		
+original_non_target_NP	GSM5048709	1	0	0	0	False	need >=2 bins and >=100 cells per population	0.4934485485146278		
+original_non_target_NP	GSM5048709	2	0	0	0	False	need >=2 bins and >=100 cells per population	0.17135434316051054		
+original_non_target_NP	GSM5048710	1	1	77	86	False	need >=2 bins and >=100 cells per population	0.39744828919389136		
+original_non_target_NP	GSM5048710	2	1	77	86	False	need >=2 bins and >=100 cells per population	0.3062755917965661		
+original_non_target_NP	GSM5048711	1	0	0	0	False	need >=2 bins and >=100 cells per population			
+original_non_target_NP	GSM5048711	2	0	0	0	False	need >=2 bins and >=100 cells per population			
+original_non_target_NP	GSM5048712	1	1	46	560	False	need >=2 bins and >=100 cells per population	0.23481498148792113		
+original_non_target_NP	GSM5048712	2	1	46	560	False	need >=2 bins and >=100 cells per population	0.2282242723014298		
+original_non_target_NP	GSM5048713	1	5	1890	2370	True	pass	0.5647846761770813	0.5647846761770813	0.2846820990014828
+original_non_target_NP	GSM5048713	2	5	1890	2370	True	pass	0.4732435871676378	0.4732435871676378	0.2063986639102663
+original_non_target_NP	GSM5048714	1	5	1792	1684	True	pass	0.28424032914828634	0.28424032914828634	0.07488826682514117
+original_non_target_NP	GSM5048714	2	5	1792	1684	True	pass	0.18416901722090262	0.18416901722090262	0.022832939211301376
+original_non_target_NP	GSM5048715	1	1	58	57	False	need >=2 bins and >=100 cells per population	0.5219255399978292		
+original_non_target_NP	GSM5048715	2	1	58	57	False	need >=2 bins and >=100 cells per population	0.4048626940193205		
+all_other_broad_NP	GSM5048708	1	0	0	0	False	need >=2 bins and >=100 cells per population	0.6649193548387098		
+all_other_broad_NP	GSM5048708	2	0	0	0	False	need >=2 bins and >=100 cells per population	0.31935483870967746		
+all_other_broad_NP	GSM5048709	1	0	0	0	False	need >=2 bins and >=100 cells per population	0.3194925028835064		
+all_other_broad_NP	GSM5048709	2	0	0	0	False	need >=2 bins and >=100 cells per population	-0.026095732410611305		
+all_other_broad_NP	GSM5048710	1	1	77	90	False	need >=2 bins and >=100 cells per population	0.39280983916745504		
+all_other_broad_NP	GSM5048710	2	1	77	90	False	need >=2 bins and >=100 cells per population	0.3050657951320203		
+all_other_broad_NP	GSM5048711	1	0	0	0	False	need >=2 bins and >=100 cells per population			
+all_other_broad_NP	GSM5048711	2	0	0	0	False	need >=2 bins and >=100 cells per population			
+all_other_broad_NP	GSM5048712	1	2	66	1214	False	need >=2 bins and >=100 cells per population	0.23818082725512252		
+all_other_broad_NP	GSM5048712	2	2	66	1214	False	need >=2 bins and >=100 cells per population	0.22959209310775341		
+all_other_broad_NP	GSM5048713	1	4	1877	1721	True	pass	0.5695292465997988	0.5190639184946864	0.30945762967698937
+all_other_broad_NP	GSM5048713	2	4	1877	1721	True	pass	0.47365452656863705	0.44299553263658026	0.24997354490014584
+all_other_broad_NP	GSM5048714	1	5	1792	1892	True	pass	0.3007493959528843	0.3007493959528843	0.09044758829959876
+all_other_broad_NP	GSM5048714	2	5	1792	1892	True	pass	0.19355344873150104	0.19355344873150104	0.03369174429263402
+all_other_broad_NP	GSM5048715	1	1	68	163	False	need >=2 bins and >=100 cells per population	0.4680226016951271		
+all_other_broad_NP	GSM5048715	2	1	68	163	False	need >=2 bins and >=100 cells per population	0.37174038052853964		

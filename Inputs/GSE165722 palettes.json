@@ -1,0 +1,45 @@
+{
+  "palettes": [
+    {
+      "0": "#023fa5",
+      "1": "#7d87b9",
+      "2": "#bec1d4",
+      "3": "#d6bcc0",
+      "4": "#bb7784",
+      "5": "#8e063b",
+      "6": "#4a6fe3",
+      "7": "#8595e1",
+      "8": "#b5bbe3",
+      "9": "#e6afb9",
+      "10": "#e07b91",
+      "11": "#d33f6a",
+      "12": "#11c638",
+      "13": "#8dd593",
+      "14": "#c6dec7",
+      "15": "#ead3c6",
+      "16": "#f0b98d",
+      "17": "#ef9708",
+      "18": "#0fcfc0",
+      "19": "#9cded6",
+      "20": "#d5eae7"
+    },
+    {
+      "NP_related": "#1f77b4",
+      "NP_remodeling_phenotype": "#ff7f0e",
+      "erythroid": "#2ca02c",
+      "immune": "#d62728"
+    },
+    {
+      "GSM5048708": "#1f77b4",
+      "GSM5048709": "#ff7f0e",
+      "GSM5048710": "#2ca02c",
+      "GSM5048711": "#d62728",
+      "GSM5048712": "#9467bd",
+      "GSM5048713": "#8c564b",
+      "GSM5048714": "#e377c2",
+      "GSM5048715": "#7f7f7f"
+    }
+  ],
+  "source": "D:\\\u6295\u7a3f\\sci-cep-np\\results\\GSE165722_independent_validation\\05_figures\\independent_umap_clusters_identity_donor.svg",
+  "sha256": "003083073bf09bbde5a5e851570ae1e8d8211aeafdc5c345242742c8e8fe8cc3"
+}

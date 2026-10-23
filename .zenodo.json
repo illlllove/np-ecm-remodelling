@@ -1,0 +1,29 @@
+{
+  "title": "Nucleus pulposus ECM remodelling: figure reproduction code and frozen plotting inputs",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {"name": "Liang, Wenyue"},
+    {"name": "Yao, Hongping"},
+    {"name": "Tu, Wang"},
+    {"name": "Zhai, Yu"}
+  ],
+  "description": "<p>Python drawing code and frozen processed inputs for seven main figures and 24 supplementary figures examining fibrocartilage-like extracellular matrix remodelling in human nucleus pulposus-related cells. The figures distinguish the relative abundance of a remodelling state, expression within that state and bulk-tissue signals.</p><p>This software release redraws completed results. It does not rerun the original raw-data quality control, clustering, statistical inference or upstream multi-omics pipelines. The frozen inputs comprise processed tables, UMAP coordinates, categorical palettes and caption definitions; original large expression matrices are not included.</p><p>The source distribution contains code and frozen plotting inputs. The complete Windows x86-64 distribution additionally contains Python 3.12.14 and installed dependencies for offline reproduction. MIT applies to original project code and documentation only. Source-data reuse conditions and third-party software licenses remain applicable and are described in Reuse.txt and the bundled software metadata.</p>",
+  "keywords": [
+    "intervertebral disc degeneration",
+    "nucleus pulposus",
+    "extracellular matrix",
+    "single-cell RNA sequencing",
+    "figure reproduction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/illlllove/np-ecm-remodelling",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}

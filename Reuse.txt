@@ -1,0 +1,11 @@
+Original project Python code and its documentation are licensed under MIT.
+
+The MIT license does not replace the access, attribution or reuse terms of
+source research data. Inputs.json identifies the source-relative provenance
+of the frozen processed plotting files. Reuse of these data must respect
+applicable source conditions and cite the original studies.
+
+Third-party software is not vendored in the GitHub source distribution.
+The separately distributed portable Windows runtime retains third-party
+licenses and notices in its own software and distribution metadata files.
+Its third-party components are not relicensed under the project MIT license.

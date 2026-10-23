@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this figure-reproduction code, please cite this software record."
+type: software
+title: "Nucleus pulposus ECM remodelling: figure reproduction code and frozen plotting inputs"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Liang
+    given-names: Wenyue
+  - family-names: Yao
+    given-names: Hongping
+  - family-names: Tu
+    given-names: Wang
+  - family-names: Zhai
+    given-names: Yu
+repository-code: "https://github.com/illlllove/np-ecm-remodelling"
+abstract: >-
+  Python drawing code and frozen processed inputs for seven main figures and
+  24 supplementary figures examining fibrocartilage-like ECM remodelling in
+  human nucleus pulposus-related cells. The figures distinguish cell-state
+  abundance, expression within the state and bulk-tissue signals. This release
+  redraws completed results; it does not rerun the underlying raw-data analyses.
+keywords:
+  - intervertebral disc degeneration
+  - nucleus pulposus
+  - extracellular matrix
+  - single-cell RNA sequencing
+  - figure reproduction

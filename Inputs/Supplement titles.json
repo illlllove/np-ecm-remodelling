@@ -1,0 +1,20 @@
+[
+  "Independent primary-tissue clustering in GSE222182",
+  "Cultured-cell clustering in GSE222182",
+  "Independent clustering and state annotation in GSE244889",
+  "GSE160756 anatomical tissue representation",
+  "GSE160756 state fractions by tissue",
+  "GSE160756 frozen-signature pseudobulk expression",
+  "Independent state presence in GSE233666",
+  "Frozen-score sensitivity in GSE186542",
+  "Positive-marker alignment across NP-related states",
+  "Independent trajectory comparisons",
+  "Exploratory regulator comparison",
+  "Stratified effect summaries of the frozen signature",
+  "Raw-count co-detection effects across cohorts",
+  "Ambient-RNA proxy and UMI-threshold sensitivity",
+  "DIPPER regional protein distributions",
+  "Marker-pair exclusion and state-support sensitivity",
+  "Detection-depth standardization sensitivity",
+  "Absolute same-barcode event prevalence"
+]

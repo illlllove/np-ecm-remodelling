@@ -1,0 +1,14 @@
+{
+  "figure": "Canonical Figure 6A",
+  "sourceCode": "scripts/48_build_final_manuscript_figures.py::figure4 / hedges_g_ci",
+  "purpose": "Freeze the already displayed historical Hedges g and normal-approximation 95% CI; do not substitute raw-difference bootstrap intervals or re-estimate effects in the reproduction runner.",
+  "crossCheck": "Compared against canonical Figure 6 PDF vector positions, not a newly fitted model.",
+  "vectorCoordinateRecord": {
+    "canonicalPDFPoints": [820.78875, 329.228548],
+    "zeroTickCentreX": 162.506716,
+    "pointsPerEffectUnit": 34.870159,
+    "CILineXBoundsFromTopToBottom": [[209.929081,356.406661],[96.237206,170.449825],[95.037222,207.707302],[108.199496,219.8267]],
+    "pointCentreXFromTopToBottom": [283.167871,133.343516,151.372262,164.013098]
+  },
+  "sampleValues": "Read unchanged from the four separately cached cohort score tables for Figure 6B. No effect sizes, intervals or hypothesis tests are fitted at rendering time."
+}

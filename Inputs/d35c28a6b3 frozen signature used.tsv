@@ -1,0 +1,26 @@
+signature_version	module	gene_symbol	direction	weight	provenance
+NP_transition_v1	remodeling	AEBP1	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	COL11A1	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	BGN	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	SPARC	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	SCRG1	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	COL5A2	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	COL5A1	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	MFGE8	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	CRTAC1	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	S100A4	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	NDUFA4L2	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	VKORC1	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	TSPAN2	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	MATN2	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	remodeling	DPT	1	1	GSE251686 outcome-blind ECM-remodeling NP-like marker
+NP_transition_v1	homeostatic	C2orf40	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker
+NP_transition_v1	homeostatic	MGP	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker
+NP_transition_v1	homeostatic	FGFBP2	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker
+NP_transition_v1	homeostatic	DCN	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker
+NP_transition_v1	homeostatic	CLU	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker
+NP_transition_v1	homeostatic	SOD3	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker
+NP_transition_v1	homeostatic	CYTL1	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker
+NP_transition_v1	homeostatic	MT1X	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker
+NP_transition_v1	homeostatic	S100A1	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker
+NP_transition_v1	homeostatic	LUM	-1	1	GSE251686 outcome-blind matrix-homeostatic NP-like marker

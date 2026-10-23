@@ -1,0 +1,13 @@
+Outputs/
+Environment/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+*.log

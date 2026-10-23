@@ -1,0 +1,9 @@
+﻿contrast	count_threshold	analysis	n_donors	mean_RD	median_RD	positive_donors	p_exact	permutations	mean_common_unadjusted_RD	effect_retained_ratio	material_depth_sensitive
+original_non_target_NP	1	unadjusted	5	0.4006427632010019	0.39744828919389136	5	0.0625	32			
+original_non_target_NP	2	unadjusted	5	0.3193550325011714	0.3062755917965661	5	0.0625	32			
+all_other_broad_NP	1	unadjusted	5	0.39385838213407753	0.39280983916745504	5	0.0625	32			
+all_other_broad_NP	2	unadjusted	5	0.3147212488136903	0.3050657951320203	5	0.0625	32			
+original_non_target_NP	1	depth_standardized	2	0.17978518291331197	0.17978518291331197	2	0.5	4	0.4245125026626838	0.4235097477356719	True
+original_non_target_NP	2	depth_standardized	2	0.11461580156078383	0.11461580156078383	2	0.5	4	0.3287063021942702	0.34868756940669854	True
+all_other_broad_NP	1	depth_standardized	2	0.19995260898829406	0.19995260898829406	2	0.5	4	0.40990665722378533	0.48780034543115874	True
+all_other_broad_NP	2	depth_standardized	2	0.14183264459638992	0.14183264459638992	2	0.5	4	0.3182744906840407	0.44562994756997615	True

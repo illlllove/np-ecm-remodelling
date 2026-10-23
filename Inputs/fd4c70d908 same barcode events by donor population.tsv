@@ -1,0 +1,193 @@
+﻿event	count_threshold	population	donor	population_cells	evaluable_cells	positive_cells	fraction	missing_feature_cells	raw_UMI_interpretation
+double_positive	1	target	GSM5048708	6	6	4.0	0.6666666666666666	0	conditional_on_count_provenance
+double_positive	1	target	GSM5048709	1679	1679	1378.0	0.820726622989875	0	conditional_on_count_provenance
+double_positive	1	target	GSM5048710	93	93	37.0	0.3978494623655914	0	conditional_on_count_provenance
+double_positive	1	target	GSM5048711	2	2	0.0	0.0	0	conditional_on_count_provenance
+double_positive	1	target	GSM5048712	255	255	29.0	0.11372549019607843	0	conditional_on_count_provenance
+double_positive	1	target	GSM5048713	2128	2128	1425.0	0.6696428571428571	0	conditional_on_count_provenance
+double_positive	1	target	GSM5048714	2000	2000	990.0	0.495	0	conditional_on_count_provenance
+double_positive	1	target	GSM5048715	657	657	118.0	0.1796042617960426	0	conditional_on_count_provenance
+double_positive	1	non_target_NP	GSM5048708	495	495	67.0	0.13535353535353536	0	conditional_on_count_provenance
+double_positive	1	non_target_NP	GSM5048709	2951	2951	1003.0	0.33988478481870554	0	conditional_on_count_provenance
+double_positive	1	non_target_NP	GSM5048710	739	739	23.0	0.03112313937753721	0	conditional_on_count_provenance
+double_positive	1	non_target_NP	GSM5048711	72	72	10.0	0.1388888888888889	0	conditional_on_count_provenance
+double_positive	1	non_target_NP	GSM5048712	2945	2945	231.0	0.07843803056027164	0	conditional_on_count_provenance
+double_positive	1	non_target_NP	GSM5048713	2370	2370	412.0	0.17383966244725738	0	conditional_on_count_provenance
+double_positive	1	non_target_NP	GSM5048714	1684	1684	431.0	0.25593824228028506	0	conditional_on_count_provenance
+double_positive	1	non_target_NP	GSM5048715	498	498	16.0	0.0321285140562249	0	conditional_on_count_provenance
+double_positive	1	other_cells	GSM5048708	5211	5211	0.0	0.0	0	conditional_on_count_provenance
+double_positive	1	other_cells	GSM5048709	323	323	62.0	0.19195046439628483	0	conditional_on_count_provenance
+double_positive	1	other_cells	GSM5048710	4410	4410	0.0	0.0	0	conditional_on_count_provenance
+double_positive	1	other_cells	GSM5048711	4359	4359	0.0	0.0	0	conditional_on_count_provenance
+double_positive	1	other_cells	GSM5048712	2321	2321	1.0	0.00043084877208099956	0	conditional_on_count_provenance
+double_positive	1	other_cells	GSM5048713	875	875	2.0	0.002285714285714286	0	conditional_on_count_provenance
+double_positive	1	other_cells	GSM5048714	1887	1887	3.0	0.001589825119236884	0	conditional_on_count_provenance
+double_positive	1	other_cells	GSM5048715	3734	3734	1.0	0.0002678093197643278	0	conditional_on_count_provenance
+double_positive	1	all_NP	GSM5048708	501	501	71.0	0.14171656686626746	0	conditional_on_count_provenance
+double_positive	1	all_NP	GSM5048709	4630	4630	2381.0	0.5142548596112311	0	conditional_on_count_provenance
+double_positive	1	all_NP	GSM5048710	832	832	60.0	0.07211538461538461	0	conditional_on_count_provenance
+double_positive	1	all_NP	GSM5048711	74	74	10.0	0.13513513513513514	0	conditional_on_count_provenance
+double_positive	1	all_NP	GSM5048712	3200	3200	260.0	0.08125	0	conditional_on_count_provenance
+double_positive	1	all_NP	GSM5048713	4498	4498	1837.0	0.4084037349933304	0	conditional_on_count_provenance
+double_positive	1	all_NP	GSM5048714	3684	3684	1421.0	0.38572204125950055	0	conditional_on_count_provenance
+double_positive	1	all_NP	GSM5048715	1155	1155	134.0	0.11601731601731602	0	conditional_on_count_provenance
+triple_A	1	target	GSM5048708	6	6	1.0	0.16666666666666666	0	conditional_on_count_provenance
+triple_A	1	target	GSM5048709	1679	0			1679	conditional_on_count_provenance
+triple_A	1	target	GSM5048710	93	93	1.0	0.010752688172043012	0	conditional_on_count_provenance
+triple_A	1	target	GSM5048711	2	0			2	conditional_on_count_provenance
+triple_A	1	target	GSM5048712	255	0			255	conditional_on_count_provenance
+triple_A	1	target	GSM5048713	2128	2128	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	target	GSM5048714	2000	2000	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	target	GSM5048715	657	657	1.0	0.0015220700152207	0	conditional_on_count_provenance
+triple_A	1	non_target_NP	GSM5048708	495	495	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	non_target_NP	GSM5048709	2951	0			2951	conditional_on_count_provenance
+triple_A	1	non_target_NP	GSM5048710	739	739	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	non_target_NP	GSM5048711	72	0			72	conditional_on_count_provenance
+triple_A	1	non_target_NP	GSM5048712	2945	0			2945	conditional_on_count_provenance
+triple_A	1	non_target_NP	GSM5048713	2370	2370	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	non_target_NP	GSM5048714	1684	1684	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	non_target_NP	GSM5048715	498	498	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	other_cells	GSM5048708	5211	5211	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	other_cells	GSM5048709	323	0			323	conditional_on_count_provenance
+triple_A	1	other_cells	GSM5048710	4410	4410	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	other_cells	GSM5048711	4359	0			4359	conditional_on_count_provenance
+triple_A	1	other_cells	GSM5048712	2321	0			2321	conditional_on_count_provenance
+triple_A	1	other_cells	GSM5048713	875	875	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	other_cells	GSM5048714	1887	1887	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	other_cells	GSM5048715	3734	3734	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	all_NP	GSM5048708	501	501	1.0	0.001996007984031936	0	conditional_on_count_provenance
+triple_A	1	all_NP	GSM5048709	4630	0			4630	conditional_on_count_provenance
+triple_A	1	all_NP	GSM5048710	832	832	1.0	0.001201923076923077	0	conditional_on_count_provenance
+triple_A	1	all_NP	GSM5048711	74	0			74	conditional_on_count_provenance
+triple_A	1	all_NP	GSM5048712	3200	0			3200	conditional_on_count_provenance
+triple_A	1	all_NP	GSM5048713	4498	4498	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	all_NP	GSM5048714	3684	3684	0.0	0.0	0	conditional_on_count_provenance
+triple_A	1	all_NP	GSM5048715	1155	1155	1.0	0.0008658008658008658	0	conditional_on_count_provenance
+triple_B	1	target	GSM5048708	6	6	3.0	0.5	0	conditional_on_count_provenance
+triple_B	1	target	GSM5048709	1679	1679	323.0	0.1923764145324598	0	conditional_on_count_provenance
+triple_B	1	target	GSM5048710	93	93	5.0	0.053763440860215055	0	conditional_on_count_provenance
+triple_B	1	target	GSM5048711	2	2	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	target	GSM5048712	255	255	1.0	0.00392156862745098	0	conditional_on_count_provenance
+triple_B	1	target	GSM5048713	2128	2128	230.0	0.1080827067669173	0	conditional_on_count_provenance
+triple_B	1	target	GSM5048714	2000	2000	73.0	0.0365	0	conditional_on_count_provenance
+triple_B	1	target	GSM5048715	657	657	18.0	0.0273972602739726	0	conditional_on_count_provenance
+triple_B	1	non_target_NP	GSM5048708	495	495	9.0	0.01818181818181818	0	conditional_on_count_provenance
+triple_B	1	non_target_NP	GSM5048709	2951	2951	24.0	0.008132836326668925	0	conditional_on_count_provenance
+triple_B	1	non_target_NP	GSM5048710	739	739	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	non_target_NP	GSM5048711	72	72	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	non_target_NP	GSM5048712	2945	2945	5.0	0.001697792869269949	0	conditional_on_count_provenance
+triple_B	1	non_target_NP	GSM5048713	2370	2370	8.0	0.0033755274261603376	0	conditional_on_count_provenance
+triple_B	1	non_target_NP	GSM5048714	1684	1684	4.0	0.0023752969121140144	0	conditional_on_count_provenance
+triple_B	1	non_target_NP	GSM5048715	498	498	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	other_cells	GSM5048708	5211	5211	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	other_cells	GSM5048709	323	323	1.0	0.0030959752321981426	0	conditional_on_count_provenance
+triple_B	1	other_cells	GSM5048710	4410	4410	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	other_cells	GSM5048711	4359	4359	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	other_cells	GSM5048712	2321	2321	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	other_cells	GSM5048713	875	875	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	other_cells	GSM5048714	1887	1887	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	other_cells	GSM5048715	3734	3734	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	all_NP	GSM5048708	501	501	12.0	0.023952095808383235	0	conditional_on_count_provenance
+triple_B	1	all_NP	GSM5048709	4630	4630	347.0	0.07494600431965442	0	conditional_on_count_provenance
+triple_B	1	all_NP	GSM5048710	832	832	5.0	0.006009615384615385	0	conditional_on_count_provenance
+triple_B	1	all_NP	GSM5048711	74	74	0.0	0.0	0	conditional_on_count_provenance
+triple_B	1	all_NP	GSM5048712	3200	3200	6.0	0.001875	0	conditional_on_count_provenance
+triple_B	1	all_NP	GSM5048713	4498	4498	238.0	0.052912405513561585	0	conditional_on_count_provenance
+triple_B	1	all_NP	GSM5048714	3684	3684	77.0	0.020901194353963082	0	conditional_on_count_provenance
+triple_B	1	all_NP	GSM5048715	1155	1155	18.0	0.015584415584415584	0	conditional_on_count_provenance
+double_positive	2	target	GSM5048708	6	6	2.0	0.3333333333333333	0	conditional_on_count_provenance
+double_positive	2	target	GSM5048709	1679	1679	1186.0	0.7063728409767719	0	conditional_on_count_provenance
+double_positive	2	target	GSM5048710	93	93	25.0	0.26881720430107525	0	conditional_on_count_provenance
+double_positive	2	target	GSM5048711	2	2	0.0	0.0	0	conditional_on_count_provenance
+double_positive	2	target	GSM5048712	255	255	21.0	0.08235294117647059	0	conditional_on_count_provenance
+double_positive	2	target	GSM5048713	2128	2128	1046.0	0.49154135338345867	0	conditional_on_count_provenance
+double_positive	2	target	GSM5048714	2000	2000	608.0	0.304	0	conditional_on_count_provenance
+double_positive	2	target	GSM5048715	657	657	75.0	0.1141552511415525	0	conditional_on_count_provenance
+double_positive	2	non_target_NP	GSM5048708	495	495	40.0	0.08080808080808081	0	conditional_on_count_provenance
+double_positive	2	non_target_NP	GSM5048709	2951	2951	478.0	0.16197899017282277	0	conditional_on_count_provenance
+double_positive	2	non_target_NP	GSM5048710	739	739	4.0	0.005412719891745603	0	conditional_on_count_provenance
+double_positive	2	non_target_NP	GSM5048711	72	72	5.0	0.06944444444444445	0	conditional_on_count_provenance
+double_positive	2	non_target_NP	GSM5048712	2945	2945	73.0	0.024787775891341256	0	conditional_on_count_provenance
+double_positive	2	non_target_NP	GSM5048713	2370	2370	170.0	0.07172995780590717	0	conditional_on_count_provenance
+double_positive	2	non_target_NP	GSM5048714	1684	1684	249.0	0.14786223277909738	0	conditional_on_count_provenance
+double_positive	2	non_target_NP	GSM5048715	498	498	7.0	0.014056224899598393	0	conditional_on_count_provenance
+double_positive	2	other_cells	GSM5048708	5211	5211	0.0	0.0	0	conditional_on_count_provenance
+double_positive	2	other_cells	GSM5048709	323	323	10.0	0.030959752321981424	0	conditional_on_count_provenance
+double_positive	2	other_cells	GSM5048710	4410	4410	0.0	0.0	0	conditional_on_count_provenance
+double_positive	2	other_cells	GSM5048711	4359	4359	0.0	0.0	0	conditional_on_count_provenance
+double_positive	2	other_cells	GSM5048712	2321	2321	0.0	0.0	0	conditional_on_count_provenance
+double_positive	2	other_cells	GSM5048713	875	875	1.0	0.001142857142857143	0	conditional_on_count_provenance
+double_positive	2	other_cells	GSM5048714	1887	1887	0.0	0.0	0	conditional_on_count_provenance
+double_positive	2	other_cells	GSM5048715	3734	3734	1.0	0.0002678093197643278	0	conditional_on_count_provenance
+double_positive	2	all_NP	GSM5048708	501	501	42.0	0.08383233532934131	0	conditional_on_count_provenance
+double_positive	2	all_NP	GSM5048709	4630	4630	1664.0	0.3593952483801296	0	conditional_on_count_provenance
+double_positive	2	all_NP	GSM5048710	832	832	29.0	0.03485576923076923	0	conditional_on_count_provenance
+double_positive	2	all_NP	GSM5048711	74	74	5.0	0.06756756756756757	0	conditional_on_count_provenance
+double_positive	2	all_NP	GSM5048712	3200	3200	94.0	0.029375	0	conditional_on_count_provenance
+double_positive	2	all_NP	GSM5048713	4498	4498	1216.0	0.2703423743886172	0	conditional_on_count_provenance
+double_positive	2	all_NP	GSM5048714	3684	3684	857.0	0.23262757871878392	0	conditional_on_count_provenance
+double_positive	2	all_NP	GSM5048715	1155	1155	82.0	0.070995670995671	0	conditional_on_count_provenance
+triple_A	2	target	GSM5048708	6	6	1.0	0.16666666666666666	0	conditional_on_count_provenance
+triple_A	2	target	GSM5048709	1679	0			1679	conditional_on_count_provenance
+triple_A	2	target	GSM5048710	93	93	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	target	GSM5048711	2	0			2	conditional_on_count_provenance
+triple_A	2	target	GSM5048712	255	0			255	conditional_on_count_provenance
+triple_A	2	target	GSM5048713	2128	2128	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	target	GSM5048714	2000	2000	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	target	GSM5048715	657	657	1.0	0.0015220700152207	0	conditional_on_count_provenance
+triple_A	2	non_target_NP	GSM5048708	495	495	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	non_target_NP	GSM5048709	2951	0			2951	conditional_on_count_provenance
+triple_A	2	non_target_NP	GSM5048710	739	739	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	non_target_NP	GSM5048711	72	0			72	conditional_on_count_provenance
+triple_A	2	non_target_NP	GSM5048712	2945	0			2945	conditional_on_count_provenance
+triple_A	2	non_target_NP	GSM5048713	2370	2370	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	non_target_NP	GSM5048714	1684	1684	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	non_target_NP	GSM5048715	498	498	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	other_cells	GSM5048708	5211	5211	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	other_cells	GSM5048709	323	0			323	conditional_on_count_provenance
+triple_A	2	other_cells	GSM5048710	4410	4410	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	other_cells	GSM5048711	4359	0			4359	conditional_on_count_provenance
+triple_A	2	other_cells	GSM5048712	2321	0			2321	conditional_on_count_provenance
+triple_A	2	other_cells	GSM5048713	875	875	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	other_cells	GSM5048714	1887	1887	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	other_cells	GSM5048715	3734	3734	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	all_NP	GSM5048708	501	501	1.0	0.001996007984031936	0	conditional_on_count_provenance
+triple_A	2	all_NP	GSM5048709	4630	0			4630	conditional_on_count_provenance
+triple_A	2	all_NP	GSM5048710	832	832	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	all_NP	GSM5048711	74	0			74	conditional_on_count_provenance
+triple_A	2	all_NP	GSM5048712	3200	0			3200	conditional_on_count_provenance
+triple_A	2	all_NP	GSM5048713	4498	4498	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	all_NP	GSM5048714	3684	3684	0.0	0.0	0	conditional_on_count_provenance
+triple_A	2	all_NP	GSM5048715	1155	1155	1.0	0.0008658008658008658	0	conditional_on_count_provenance
+triple_B	2	target	GSM5048708	6	6	1.0	0.16666666666666666	0	conditional_on_count_provenance
+triple_B	2	target	GSM5048709	1679	1679	133.0	0.07921381774865992	0	conditional_on_count_provenance
+triple_B	2	target	GSM5048710	93	93	2.0	0.021505376344086023	0	conditional_on_count_provenance
+triple_B	2	target	GSM5048711	2	2	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	target	GSM5048712	255	255	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	target	GSM5048713	2128	2128	91.0	0.04276315789473684	0	conditional_on_count_provenance
+triple_B	2	target	GSM5048714	2000	2000	17.0	0.0085	0	conditional_on_count_provenance
+triple_B	2	target	GSM5048715	657	657	11.0	0.0167427701674277	0	conditional_on_count_provenance
+triple_B	2	non_target_NP	GSM5048708	495	495	4.0	0.00808080808080808	0	conditional_on_count_provenance
+triple_B	2	non_target_NP	GSM5048709	2951	2951	1.0	0.00033886818027787193	0	conditional_on_count_provenance
+triple_B	2	non_target_NP	GSM5048710	739	739	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	non_target_NP	GSM5048711	72	72	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	non_target_NP	GSM5048712	2945	2945	1.0	0.00033955857385398983	0	conditional_on_count_provenance
+triple_B	2	non_target_NP	GSM5048713	2370	2370	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	non_target_NP	GSM5048714	1684	1684	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	non_target_NP	GSM5048715	498	498	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	other_cells	GSM5048708	5211	5211	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	other_cells	GSM5048709	323	323	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	other_cells	GSM5048710	4410	4410	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	other_cells	GSM5048711	4359	4359	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	other_cells	GSM5048712	2321	2321	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	other_cells	GSM5048713	875	875	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	other_cells	GSM5048714	1887	1887	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	other_cells	GSM5048715	3734	3734	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	all_NP	GSM5048708	501	501	5.0	0.00998003992015968	0	conditional_on_count_provenance
+triple_B	2	all_NP	GSM5048709	4630	4630	134.0	0.028941684665226782	0	conditional_on_count_provenance
+triple_B	2	all_NP	GSM5048710	832	832	2.0	0.002403846153846154	0	conditional_on_count_provenance
+triple_B	2	all_NP	GSM5048711	74	74	0.0	0.0	0	conditional_on_count_provenance
+triple_B	2	all_NP	GSM5048712	3200	3200	1.0	0.0003125	0	conditional_on_count_provenance
+triple_B	2	all_NP	GSM5048713	4498	4498	91.0	0.02023121387283237	0	conditional_on_count_provenance
+triple_B	2	all_NP	GSM5048714	3684	3684	17.0	0.004614549402823019	0	conditional_on_count_provenance
+triple_B	2	all_NP	GSM5048715	1155	1155	11.0	0.009523809523809525	0	conditional_on_count_provenance
