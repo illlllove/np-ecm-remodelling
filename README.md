@@ -52,7 +52,9 @@ PDFium is used to render PNG files. Raster antialiasing can differ from other PD
 The complete distribution additionally contains a Windows x86-64 Python runtime and its installed dependencies. That large archive is distributed separately rather than committed to this repository. Once extracted, `Run figures.cmd` in the complete distribution runs without requiring the original project directory or a separate Python installation.
 
 The repository is maintained at https://github.com/illlllove/np-ecm-remodelling.
-The archival DOI will be added after the Zenodo record is registered.
+The archived v1.0.0 release is available on Zenodo: [10.5281/zenodo.23602886](https://doi.org/10.5281/zenodo.23602886).
+
+This DOI identifies the archived v1.0.0 source and complete Windows distributions. Citation-only updates on the default branch do not change the `v1.0.0` tag or either published archive.
 
 ## Data provenance and reuse
 
@@ -65,4 +67,6 @@ Data-source conditions and third-party software licenses are separate and are no
 
 Authors, in order: Liang Wenyue; Yao Hongping; Tu Wang; Zhai Yu.
 Version: 1.0.0. See `CITATION.cff` for machine-readable citation metadata.
-The Zenodo DOI will be added once the archived record has been published.
+DOI: [10.5281/zenodo.23602886](https://doi.org/10.5281/zenodo.23602886).
+
+Liang, W., Yao, H., Tu, W., & Zhai, Y. (2026). *Nucleus pulposus ECM remodelling: figure reproduction code and frozen plotting inputs* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23602886

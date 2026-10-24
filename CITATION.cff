@@ -3,6 +3,9 @@ message: "If you use this figure-reproduction code, please cite this software re
 type: software
 title: "Nucleus pulposus ECM remodelling: figure reproduction code and frozen plotting inputs"
 version: 1.0.0
+doi: 10.5281/zenodo.23602886
+date-released: "2026-10-24"
+url: "https://zenodo.org/records/23602886"
 license: MIT
 authors:
   - family-names: Liang
